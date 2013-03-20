@@ -1,0 +1,28 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Frag_GrenadePB" MtlFlags="128" Shader="Metal" GenMask="268443664" SurfaceType="" Diffuse="0.21568629,0.21568629,0.21568629" Specular="0.45490199,0.51372552,0.43921572" Emissive="0,0,0" Shininess="2.3399999" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/us/frag_grenade/frag_grenade.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/frag_grenade/frag_grenade_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/frag_grenade/frag_grenade_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/cxp_river_blur.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.29899999" AnisotropicShape="0.45500001" ReflectionAmount="1" FresnelBias="1" FresnelScale="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="NoDraw_grenade_proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_metal" Diffuse="0.55294102,0.70196098,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.5">
+   <Textures />
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

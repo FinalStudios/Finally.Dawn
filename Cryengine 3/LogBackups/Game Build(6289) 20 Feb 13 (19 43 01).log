@@ -1,0 +1,136 @@
+BackupNameAttachment=" Build(6289) 20 Feb 13 (19 43 01)"  -- used by backup system
+Log Started at 02/20/13 19:43:01
+Running 32 bit version
+Executable: C:\Users\Philipp\Desktop\CryENGINE_PC_v3_4_4_6289_freesdk\Bin32\Launcher.exe
+FileVersion: 3.4.4.6289
+ProductVersion: 3.4.4.6289
+CryDev Build
+Using STLport C++ Standard Library implementation
+Added MOD directory <engine> to CryPak
+Executable Command Line: "C:\Users\Philipp\Desktop\CryENGINE_PC_v3_4_4_6289_freesdk\Bin32\Launcher.exe" 
+
+Total number of logical processors: 4
+Number of available logical processors: 4
+Total number of system cores: 4
+Number of cores available to process: 4
+
+Processor 0:
+  CPU: AMD AMD Phenom(tm) II X4 965 Processor
+  Family: 15, Model: 4, Stepping: 3
+  FPU: On-Chip
+  CPU Speed (estimated): 14.3 MHz
+  MMX: not present
+  SSE: present
+  3DNow!: present
+  Serial number not present or disabled
+
+Processor 1:
+  CPU: AMD AMD Phenom(tm) II X4 965 Processor
+  Family: 15, Model: 4, Stepping: 3
+  FPU: On-Chip
+  CPU Speed (estimated): 14.3 MHz
+  MMX: not present
+  SSE: present
+  3DNow!: present
+  Serial number not present or disabled
+
+Processor 2:
+  CPU: AMD AMD Phenom(tm) II X4 965 Processor
+  Family: 15, Model: 4, Stepping: 3
+  FPU: On-Chip
+  CPU Speed (estimated): 14.3 MHz
+  MMX: not present
+  SSE: present
+  3DNow!: present
+  Serial number not present or disabled
+
+Processor 3:
+  CPU: AMD AMD Phenom(tm) II X4 965 Processor
+  Family: 15, Model: 4, Stepping: 3
+  FPU: On-Chip
+  CPU Speed (estimated): 14.3 MHz
+  MMX: not present
+  SSE: present
+  3DNow!: present
+  Serial number not present or disabled
+
+Loading Config file system.cfg (system.cfg)
+    OnSysSpecChange(4)
+    [Warning] Config file VeryHighSpec.cfg not found!
+[Warning] Config file Game/Game.cfg not found!
+creating CVarGroups from directory 'Config/CVarGroups' ...
+    Loading Config file Config/CVarGroups/sys_spec_full.cfg (game\config\cvargroups\sys_spec_full.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_gameeffects.cfg (game\config\cvargroups\sys_spec_gameeffects.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_objectdetail.cfg (game\config\cvargroups\sys_spec_objectdetail.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_particles.cfg (game\config\cvargroups\sys_spec_particles.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_physics.cfg (game\config\cvargroups\sys_spec_physics.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_postprocessing.cfg (game\config\cvargroups\sys_spec_postprocessing.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_quality.cfg (game\config\cvargroups\sys_spec_quality.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_shading.cfg (game\config\cvargroups\sys_spec_shading.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_shadows.cfg (game\config\cvargroups\sys_spec_shadows.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_sound.cfg (game\config\cvargroups\sys_spec_sound.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_texture.cfg (game\config\cvargroups\sys_spec_texture.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_volumetriceffects.cfg (game\config\cvargroups\sys_spec_volumetriceffects.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_water.cfg (game\config\cvargroups\sys_spec_water.cfg)
+Windows 64 bit (build 6.2.9200)
+User name: "Philipp"
+System language: German
+Windows Directory: "C:\Windows"
+Prerequisites...
+* Installation of KB940105 hotfix required: no! (either not needed or already installed)
+Local time is 19:43:05 02/20/13, system running for 4732 minutes
+12287MB physical memory installed, 10130MB available, 4095MB virtual memory installed, 17 percent of memory in use
+PageFile usage: 28MB, Working Set: 39MB, Peak PageFile usage: 33MB,
+Current display mode is 1920x1080x32, (Unknown graphics card)
+IBM enhanced (101/102-key) keyboard and 16+ button mouse installed
+--------------------------------------------------------------------------------
+[Warning] Config file %USER%/game.cfg not found!
+Loading Config file system.cfg (system.cfg)
+    OnSysSpecChange(4)
+    Loading Config file VeryHighSpec.cfg (game\config\veryhighspec.cfg)
+[Warning] Config file user.cfg not found!
+Stream Engine Initialization
+GameName: CryENGINE 3
+BuildTime: Jan 31 2013 13:09:51
+Font initialization
+Initializing CryFont...
+Initializing CryFont done, MemUsage=60Kb
+Physics initialization
+Initializing CryPhysics...
+Initializing CryPhysics done, MemUsage=700Kb
+Sound initialization
+    Initializing CrySoundSystem...
+    <Sound> Initializing AudioDevice now!
+    <Sound> Initialize FMOD with dynamic memory callbacks
+    <Sound> Starting to initialize Windows Audio Session API output! 
+    <Sound> Playback drivers found: 2
+    <Sound> Available playback drivers:
+	1.	Lautsprecher (Realtek High Definition Audio)
+	2.	Realtek Digital Output (Realtek High Definition Audio)
+    <Sound> FmodEx-AudioDevice: Now running on driver: Lautsprecher (Realtek High Definition Audio)
+    <Sound> Record drivers found: 1
+    <Sound> Available record drivers:
+	1.	Stereomix (Realtek High Definition Audio)
+    <Sound> Record config is set to autodetect using record driver 0
+    <Sound> Using speaker mode: FMOD_SPEAKERMODE_5POINT1
+    <Sound> Initializing FMOD-EX now!
+    <Sound> Sound-FmodEx-AudioDevice Thread created: FMOD (WASAPI) feeder thread (1104) 
+    <Sound> Sound-FmodEx-AudioDevice Thread created: FMOD mixer thread (1128) 
+    <Sound> Sound-FmodEx-AudioDevice Thread created: FMOD stream thread (1136) 
+    <Sound> Initialized FMOD-EX
+    <Sound> Using FMOD version: 00044211 and internal 00044211!
+    <Sound> -------------CRYSOUND-EX VERSION =   00044211 ------- 
+    <Sound> Total number of all hardware channels available: 0
+    <Sound> Initializing SoundSystem now!
+    <Sound> AD: Setting of FMOD debug level failed! The FMOD libraries do not support logging!
+    Initializing CrySoundSystem done, MemUsage=4972Kb
+    <Sound> Sound-FmodEx-AudioDevice Thread created: FMOD nonblocking thread (0) (1148) 
+Renderer initialization
+Initializing CryRenderD3D11...
+CRenderer sizeof(Vec2f16)=4 sizeof(Vec3f16)=8
+Initializing CryRenderD3D11 done, MemUsage=2112Kb
+Initializing Direct3D and creating game window:
+    D3DX_SDK_VERSION = 43
+    Direct3D11 driver is creating...
+    Crytek Direct3D11 driver version 2.00 (Jan 31 2013 <13:12:43>)
+    Creating window called 'CryENGINE 3 [non-commercial use]' (1024x768)
