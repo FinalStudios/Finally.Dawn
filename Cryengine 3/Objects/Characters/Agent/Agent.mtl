@@ -1,0 +1,61 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="head" MtlFlags="524416" Shader="Humanskin" GenMask="100000000000" StringGenMask="%SCREEN_SPACE_SSS" SurfaceType="" MatTemplate="" Diffuse="0.25084025,0.32038158,0.36859095" Specular="0.54179835,0.54799354,0.56049919" Emissive="0,0,0" Shininess="19" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/agent/textures/sdk_head_dif.dds"/>
+    <Texture Map="Bumpmap" File="objects/characters/agent/textures/sdk_head_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecularStrenght="0.30000001" FresnelPower="4" Melanin="0" RimStrenght="0.075000003" FresnelScale="1.25" SelfShadowSoftening="20" BlurScale="1" FresnelBias="0.15000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Torso" MtlFlags="524416" Shader="Cloth" GenMask="2000" StringGenMask="%DETAIL_BUMP_MAPPING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/agent/textures/sdk_torso_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/characters/agent/textures/sdk_torso_ddn.dds"/>
+    <Texture Map="Detail" File="objects/characters/agent/textures/fabrics.dds"/>
+   </Textures>
+   <PublicParams AnimAmplitudeWav0="0.58999997" FresnelPower="4" DetailBumpTillingU="15" DetailBlendAmount="0" FresnelScale="1" FuzzynessSpread="1.03" FuzzynessStrength="0.95999998" FresnelBias="1" FuzzynessSmoothness="0" DetailBumpScale="0.92699999" FuzzynessSaturation="0.63499999" DiffuseExponent="0.185" DetailBumpTillingV="15" AnimFrequency="3.1700001" AnimAmplitudeWav2="0" AnimPhase="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Hair" MtlFlags="526466" Shader="Hair" GenMask="206000000008" StringGenMask="%ANISO_SPECULAR%SOFT_ALPHATEST%VERTCOLORS%WIND_BENDING" SurfaceType="" MatTemplate="" Diffuse="0.17343903,0.16687226,0.16044351" Specular="0.047775757,0.047775757,0.047775757" Emissive="0,0,0" Shininess="15" Opacity="1" AlphaTest="0.25" HeatAmountScaled="32">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/agent/textures/basic_hair.tif"/>
+    <Texture Map="Specular" File="objects/characters/agent/textures/basic_hair_spec.tif"/>
+   </Textures>
+   <PublicParams AnimAmplitudeWav0="0.1" AmbientSpecMult="0.60000002" SecondarySpecShift="0.0049999999" PrimarySpecColor="0.39408314,0.39408314,0.39408314" RimMultiplier="0.15000001" DiffuseWrap="0.55000001" PrimarySpecPow="107.7" SelfShadowSoftening="20" DetailTilling="1" HairColor="0.065753885,0.04145189,0.019917838" AlphaTestSoftening="0.0080000004" SecondarySpecColor="0.25902736,0.1869885,0.16044351" AnimFrequency="0.345" PrimarySpecShift="0.14399999" AnimAmplitudeWav2="0.1" SecondarySpecPow="8" AnimPhase="10" BumpScale="0.2" IndirectColor="0,0,0"/>
+  </Material>
+  <Material Name="Limbs" MtlFlags="524416" Shader="Cloth" GenMask="2000" StringGenMask="%DETAIL_BUMP_MAPPING" SurfaceType="" MatTemplate="" Diffuse="0.67304909,0.67304909,0.67304909" Specular="1,1,1" Emissive="0,0,0" Shininess="14.1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/agent/textures/sdk_legs_dif.dds"/>
+    <Texture Map="Bumpmap" File="objects/characters/agent/textures/sdk_legs_ddn.dds"/>
+    <Texture Map="Detail" File="objects/characters/agent/textures/fabrics.dds"/>
+   </Textures>
+   <PublicParams AnimAmplitudeWav0="0" FresnelPower="4" DetailBumpTillingU="20" DetailBlendAmount="0" FresnelScale="1" FuzzynessSpread="1.33" FuzzynessStrength="1" FresnelBias="1" FuzzynessSmoothness="9.3299999" DetailBumpScale="2.421" FuzzynessSaturation="0.98900002" DiffuseExponent="1" DetailBumpTillingV="20" AnimFrequency="0" AnimAmplitudeWav2="0" AnimPhase="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="shoes" MtlFlags="524416" Shader="Illum" GenMask="40001" StringGenMask="%ALLOW_POM%GLOSS_DIFFUSEALPHA" SurfaceType="" MatTemplate="" Diffuse="0.13320851,0.13902245,0.27583286" Specular="0.2801244,0.23489527,0.13035227" Emissive="0,0,0" Shininess="2.0999999" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/agent/textures/sdk_legs_dif.dds"/>
+    <Texture Map="Bumpmap" File="objects/characters/agent/textures/sdk_legs_ddn.dds"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="eye" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="iris" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.25490198,0.25490198,0.25490198" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="eyeLeashes" MtlFlags="524416" Shader="Eye" GenMask="20000" StringGenMask="%EYE_OVERLAY" SurfaceType="" MatTemplate="" Diffuse="0.031551391,0.031551391,0.031551391" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.89999998">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/agent/textures/eyelash.tif"/>
+   </Textures>
+   <PublicParams CorneaOpacity="0.24600001" FresnelPower="4" FresnelScale="8.0500002" IrisGlintMul="0.889" IrisColor="1,1,1" FresnelBias="0.193" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Hands" MtlFlags="524416" Shader="Humanskin" GenMask="100000000000" StringGenMask="%SCREEN_SPACE_SSS" SurfaceType="" MatTemplate="" Diffuse="0.29765266,0.31118053,0.34402567" Specular="0.039947167,0.039947167,0.039947167" Emissive="0,0,0" Shininess="13.2" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/agent/textures/sdk_legs_dif.dds"/>
+    <Texture Map="Bumpmap" File="objects/characters/agent/textures/sdk_legs_ddn.dds"/>
+   </Textures>
+   <PublicParams SpecularStrenght="0.64899999" FresnelPower="4" Melanin="0.505" RimStrenght="0.66000003" FresnelScale="1" SelfShadowSoftening="40" BlurScale="3" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>
