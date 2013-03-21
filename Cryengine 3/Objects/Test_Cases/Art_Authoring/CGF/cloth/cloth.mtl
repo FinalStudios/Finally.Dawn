@@ -1,0 +1,19 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="cloth1" MtlFlags="524418" Shader="Illum" GenMask="2001" StringGenMask="%ALLOW_POM%DETAIL_BUMP_MAPPING" SurfaceType="" MatTemplate="" Diffuse="0.5,0.5,0.5" Specular="0.5,0.5,0.5" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/wall/plaster_wall03_diff.dds"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/fabric_b_detailbump_ddn.dds"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" DetailBumpTillingU="4" DetailBlendAmount="0" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" DetailBumpScale="0.28" GlossFromDiffuseBrightness="0.333" DetailBumpTillingV="4" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="pole" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_POM" SurfaceType="" MatTemplate="" Diffuse="0.5,0.5,0.5" Specular="0.5,0.5,0.5" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.5,0.5,0.5" Specular="0.5,0.5,0.5" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>
