@@ -1,0 +1,139 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="head" MtlFlags="524416" Shader="Humanskin" GenMask="90000" StringGenMask="%ENVIRONMENT_MAP%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.44313729,0.44313729,0.44313729" Specular="0.52000004,0.52000004,0.52000004" Emissive="0,0,0" Shininess="1.5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/heads/neutral_male/head_diff.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/heads/neutral_male/head_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/characters/heads/neutral_male/head_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/characters/neutral_male/beach_blur.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="SubSurface" File="objects/characters/heads/neutral_male/head_sss.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SubsurfaceStrenght="1" RimStrenght="0.57999998" SpecularStrenght="0.14" DiffusionAmount="0.51999998" RimPow="4.4959998" Melanin="0.62400001" IndirectColor="0.25,0.25,0.25"/>
+   <MaterialLayers>
+    <Layer Name="Frozenlayerwip" NoDraw="0">
+     <PublicParams VariationTilling="0" TillingU="1" TillingV="1" ReflectionAmount="0.29699999" TopSnowAmount="0.47499999" TintColor="1,1,1" IndirectColor="0.25,0.25,0.25"/>
+    </Layer>
+    <Layer />
+    <Layer />
+   </MaterialLayers>
+  </Material>
+  <Material Name="body" MtlFlags="524448" Shader="Cloth" GenMask="2008" StringGenMask="%ANISO_SPECULAR%DETAIL_BUMP_MAPPING" SurfaceType="" MatTemplate="" Diffuse="0.35294119,0.34901962,0.35686275" Specular="0.092117652,0.092117652,0.092117652" Emissive="0,0,0" Shininess="0.17" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/neutral_male/body_diff.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/characters/neutral_male/body_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/characters/neutral_male/beach_blur.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="objects/characters/neutral_male/fabrics.dds" Filter="6">
+     <TexMod TileU="25" TileV="25"/>
+    </Texture>
+   </Textures>
+   <PublicParams AnimFrequency="0" AnimAmplitudeWav0="0" AnimAmplitudeWav2="0" AnimPhase="1" AnisotropicShape="0.70300001" DiffuseExponent="0.050000001" FuzzynessSmoothness="2.8699999" FuzzynessStrength="0.23" FuzzynessSpread="3.0999999" FuzzynessSaturation="1.0549999" SpecularMultiplier="0.050000001" DetailBumpTillingU="20" DetailBumpTillingV="20" DetailBumpScale="1" DetailBlendAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="arms" MtlFlags="524448" Shader="Humanskin" GenMask="10000" StringGenMask="%ENVIRONMENT_MAP" SurfaceType="" MatTemplate="" Diffuse="0.67450982,0.67450982,0.67450982" Specular="0.227451,0.227451,0.227451" Emissive="0,0,0" Shininess="3.7" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/neutral_male/body_diff.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/characters/neutral_male/body_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/characters/neutral_male/beach_blur.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="SubSurface" File="objects/characters/neutral_male/arm_sss.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SubsurfaceStrenght="0.55400002" RimStrenght="1.05" SpecularStrenght="0.79799998" DiffusionAmount="0.676" RimPow="5.994" Melanin="0.347" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="trousers" MtlFlags="524416" Shader="Cloth" GenMask="2008" StringGenMask="%ANISO_SPECULAR%DETAIL_BUMP_MAPPING" SurfaceType="" MatTemplate="" Diffuse="0.227451,0.24313727,0.27058825" Specular="0,0,0" Emissive="0.0078431377,0.0078431377,0.0078431377" Shininess="1.5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/neutral_male/body_diff.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/neutral_male/body_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/characters/neutral_male/body_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/characters/neutral_male/beach_blur.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="objects/characters/neutral_male/fabrics.dds" Filter="6">
+     <TexMod TileU="50" TileV="50"/>
+    </Texture>
+   </Textures>
+   <PublicParams AnimFrequency="0" AnimAmplitudeWav0="0" AnimAmplitudeWav2="0" AnimPhase="0" AnisotropicShape="0.60399997" DiffuseExponent="0.70300001" FuzzynessSmoothness="0.23" FuzzynessStrength="4.6799998" FuzzynessSpread="3.45" FuzzynessSaturation="0.54699999" SpecularMultiplier="0.119" DetailBumpTillingU="18.139999" DetailBumpTillingV="19.639999" DetailBumpScale="9.0710001" DetailBlendAmount="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="shoes" MtlFlags="524416" Shader="Cloth" GenMask="2008" StringGenMask="%ANISO_SPECULAR%DETAIL_BUMP_MAPPING" SurfaceType="" MatTemplate="" Diffuse="0.16078432,0.13725491,0.12156864" Specular="0.16376472,0.16012549,0.083701961" Emissive="0,0,0" Shininess="1.5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/neutral_male/body_diff.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/characters/neutral_male/body_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/characters/neutral_male/beach_blur.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="objects/characters/neutral_male/fabrics.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AnimFrequency="0" AnimAmplitudeWav0="0" AnimAmplitudeWav2="0" AnimPhase="4.8000002" AnisotropicShape="0.58399999" DiffuseExponent="0.861" FuzzynessSmoothness="0" FuzzynessStrength="2.22" FuzzynessSpread="5.25" FuzzynessSaturation="0.32800001" SpecularMultiplier="0.199" DetailBumpTillingU="30" DetailBumpTillingV="30" DetailBumpScale="0.81400001" DetailBlendAmount="0.84200001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="eye" MtlFlags="524416" Shader="Eye" GenMask="10000" StringGenMask="%ENVIRONMENT_MAP" SurfaceType="" MatTemplate="" Diffuse="0.60392159,0.60000002,0.60784316" Specular="0.67058825,0.67058825,0.67058825" Emissive="0,0,0" Shininess="74.599998" Opacity="0.99000001" AlphaTest="0.0099999998">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/heads/eyes/eyeball.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/heads/eyes/eye_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/characters/heads/eyes/eyeball_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/characters/heads/eyes/eye_reflect.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams ReflectionAmount="2.75" FresnelBias="0.075000003" FresnelScale="1" IrisGlintMul="2" CorneaOpacity="0.5" IrisColor="1,1,1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="iris" MtlFlags="524416" Shader="Eye" GenMask="400000" StringGenMask="%IRIS" SurfaceType="" MatTemplate="" Diffuse="0.50588238,0.57254905,0.64705884" Specular="1.2,1.2,1.2" Emissive="0,0,0" Shininess="225.2" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/heads/eyes/iris.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/characters/heads/eyes/iris_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams ReflectionAmount="0.25" FresnelBias="0" FresnelScale="1" IrisGlintMul="2" CorneaOpacity="0.5" IrisColor="1,1,1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="eyeLeashes" MtlFlags="540802" Shader="Eye" GenMask="20000" StringGenMask="%EYE_OVERLAY" SurfaceType="" MatTemplate="" Diffuse="0.22352943,0.14509805,0.1254902" Specular="0,0,0" Emissive="0,0,0" Shininess="1.5" Opacity="0.99000001" AlphaTest="0.0099999998">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/heads/neutral_male/uveyeleash_diff.dds" Filter="1">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams ReflectionAmount="0.12" FresnelBias="0.109" FresnelScale="0.37" IrisGlintMul="1.257" CorneaOpacity="0.089000002" IrisColor="1,1,1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>
