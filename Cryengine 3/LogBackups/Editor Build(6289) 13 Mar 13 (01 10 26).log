@@ -1,0 +1,1145 @@
+BackupNameAttachment=" Build(6289) 13 Mar 13 (01 10 26)"  -- used by backup system
+Log Started at 03/13/13 01:10:26
+Running 32 bit version
+Executable: G:\Games\CryENGINE_PC_v3_4_4_6289_freesdk\Bin32\Editor.exe
+FileVersion: 3.4.4.6289
+ProductVersion: 3.4.4.6289
+CryDev Build
+Using STLport C++ Standard Library implementation
+Added MOD directory <engine> to CryPak
+Executable Command Line: "G:\Games\CryENGINE_PC_v3_4_4_6289_freesdk\Bin32\Editor.exe" 
+
+Total number of logical processors: 4
+Number of available logical processors: 4
+Total number of system cores: 4
+Number of cores available to process: 4
+
+Processor 0:
+  CPU: AMD AMD Phenom(tm) II X4 965 Processor
+  Family: 15, Model: 4, Stepping: 3
+  FPU: On-Chip
+  CPU Speed (estimated): 14.3 MHz
+  MMX: not present
+  SSE: present
+  3DNow!: present
+  Serial number not present or disabled
+
+Processor 1:
+  CPU: AMD AMD Phenom(tm) II X4 965 Processor
+  Family: 15, Model: 4, Stepping: 3
+  FPU: On-Chip
+  CPU Speed (estimated): 14.3 MHz
+  MMX: not present
+  SSE: present
+  3DNow!: present
+  Serial number not present or disabled
+
+Processor 2:
+  CPU: AMD AMD Phenom(tm) II X4 965 Processor
+  Family: 15, Model: 4, Stepping: 3
+  FPU: On-Chip
+  CPU Speed (estimated): 14.3 MHz
+  MMX: not present
+  SSE: present
+  3DNow!: present
+  Serial number not present or disabled
+
+Processor 3:
+  CPU: AMD AMD Phenom(tm) II X4 965 Processor
+  Family: 15, Model: 4, Stepping: 3
+  FPU: On-Chip
+  CPU Speed (estimated): 14.3 MHz
+  MMX: not present
+  SSE: present
+  3DNow!: present
+  Serial number not present or disabled
+
+Loading Config file system.cfg (system.cfg)
+    OnSysSpecChange(4)
+    [Warning] Config file VeryHighSpec.cfg not found!
+    [Warning] Config file editor.cfg not found!
+[Warning] Config file Game/Game.cfg not found!
+creating CVarGroups from directory 'Config/CVarGroups' ...
+    Loading Config file Config/CVarGroups/sys_spec_full.cfg (game\config\cvargroups\sys_spec_full.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_gameeffects.cfg (game\config\cvargroups\sys_spec_gameeffects.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_objectdetail.cfg (game\config\cvargroups\sys_spec_objectdetail.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_particles.cfg (game\config\cvargroups\sys_spec_particles.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_physics.cfg (game\config\cvargroups\sys_spec_physics.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_postprocessing.cfg (game\config\cvargroups\sys_spec_postprocessing.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_quality.cfg (game\config\cvargroups\sys_spec_quality.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_shading.cfg (game\config\cvargroups\sys_spec_shading.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_shadows.cfg (game\config\cvargroups\sys_spec_shadows.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_sound.cfg (game\config\cvargroups\sys_spec_sound.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_texture.cfg (game\config\cvargroups\sys_spec_texture.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_volumetriceffects.cfg (game\config\cvargroups\sys_spec_volumetriceffects.cfg)
+    Loading Config file Config/CVarGroups/sys_spec_water.cfg (game\config\cvargroups\sys_spec_water.cfg)
+Windows 64 bit (build 6.2.9200)
+User name: "Philipp"
+System language: German
+Windows Directory: "C:\Windows"
+Prerequisites...
+* Installation of KB940105 hotfix required: no! (either not needed or already installed)
+Local time is 01:10:26 03/13/13, system running for 2893 minutes
+12287MB physical memory installed, 10035MB available, 4095MB virtual memory installed, 18 percent of memory in use
+PageFile usage: 44MB, Working Set: 44MB, Peak PageFile usage: 50MB,
+Current display mode is 1920x1080x32, (Unknown graphics card)
+IBM enhanced (101/102-key) keyboard and 16+ button mouse installed
+--------------------------------------------------------------------------------
+[Warning] Config file %USER%/game.cfg not found!
+Loading Config file system.cfg (system.cfg)
+    OnSysSpecChange(4)
+    Loading Config file VeryHighSpec.cfg (game\config\veryhighspec.cfg)
+    [Warning] Config file editor.cfg not found!
+[Warning] Config file user.cfg not found!
+Stream Engine Initialization
+GameName: CryENGINE 3
+BuildTime: Jan 31 2013 13:09:51
+Font initialization
+Initializing CryFont...
+Initializing CryFont done, MemUsage=60Kb
+Physics initialization
+Initializing CryPhysics...
+Initializing CryPhysics done, MemUsage=700Kb
+Sound initialization
+    Initializing CrySoundSystem...
+    <Sound> Initializing AudioDevice now!
+    <Sound> Initialize FMOD with dynamic memory callbacks
+    <Sound> Starting to initialize Windows Audio Session API output! 
+    <Sound> Playback drivers found: 3
+    <Sound> Available playback drivers:
+	1.	Lautsprecher (Realtek High Definition Audio)
+	2.	1 - SMBX2450 (AMD High Definition Audio Device)
+	3.	Realtek Digital Output (Realtek High Definition Audio)
+    <Sound> FmodEx-AudioDevice: Now running on driver: Lautsprecher (Realtek High Definition Audio)
+    <Sound> Record drivers found: 2
+    <Sound> Available record drivers:
+	1.	Mikrofon (2- USB Microphone           )
+	2.	Stereomix (Realtek High Definition Audio)
+    <Sound> Record config is set to autodetect using record driver 0
+    <Sound> Using speaker mode: FMOD_SPEAKERMODE_5POINT1
+    <Sound> Initializing FMOD-EX now!
+    <Sound> Sound-FmodEx-AudioDevice Thread created: FMOD (WASAPI) feeder thread (1140) 
+    <Sound> Sound-FmodEx-AudioDevice Thread created: FMOD mixer thread (1192) 
+    <Sound> Sound-FmodEx-AudioDevice Thread created: FMOD stream thread (1200) 
+    <Sound> Initialized FMOD-EX
+    <Sound> Using FMOD version: 00044211 and internal 00044211!
+    <Sound> -------------CRYSOUND-EX VERSION =   00044211 ------- 
+    <Sound> Total number of all hardware channels available: 0
+    <Sound> Initializing SoundSystem now!
+    <Sound> AD: Setting of FMOD debug level failed! The FMOD libraries do not support logging!
+    Initializing CrySoundSystem done, MemUsage=5128Kb
+    <Sound> Sound-FmodEx-AudioDevice Thread created: FMOD nonblocking thread (0) (1228) 
+Renderer initialization
+Initializing CryRenderD3D11...
+CRenderer sizeof(Vec2f16)=4 sizeof(Vec3f16)=8
+Initializing CryRenderD3D11 done, MemUsage=3840Kb
+Initializing Direct3D and creating game window:
+    D3DX_SDK_VERSION = 43
+    Direct3D9 driver is creating...
+    Crytek Direct3D9 driver version 2.00 (Jan 31 2013 <13:14:18>)
+    Creating window called 'CryENGINE 3 [non-commercial use]' (1024x768)
+    D3D Adapter: Driver name: aticfx32.dll
+    D3D Adapter: Driver description: AMD Radeon HD 7900 Series
+    D3D Adapter: Driver version: 8.17.10.1172
+    D3D Adapter: Driver GUID: D7B71EE2-24DA-11CF-7C734605BEC2C535
+    D3D Adapter: VendorId = 0x1002
+    D3D Adapter: DeviceId = 0x679A
+    D3D Adapter: SubSysId = 0x254C1458
+    D3D Adapter: Revision = 0
+    D3D Detected: ATI video card
+    D3D Driver: FFP MaxTextureBlendStages   = 8
+    D3D Driver: FFP MaxSimultaneousTextures = 8
+      Using 'A8R8G8B8' pixel texture format (Can autogen mips)
+      Using 'A2R10G10B10' pixel texture format (Can autogen mips)
+      Using 'X8R8G8B8' pixel texture format (Can autogen mips)
+      Using 'A4R4G4B4' pixel texture format (Can autogen mips)
+      Using 'R5G6B5' pixel texture format (Can autogen mips)
+      Using 'A8' pixel texture format
+      Using 'A8L8' pixel texture format
+      Using 'L8' pixel texture format
+      Using 'A16B16G16R16F' pixel texture format (Can autogen mips)
+      Using 'A16B16G16R16' pixel texture format (Can autogen mips)
+      Using 'G16R16F' pixel texture format (Can autogen mips)
+      Using 'G16R16' pixel texture format (Can autogen mips)
+      Using 'V16U16' pixel texture format
+      Using 'R16F' pixel texture format (Can autogen mips)
+      Using 'R32F' pixel texture format (Can autogen mips)
+      Using 'A32B32G32R32F' pixel texture format (Can autogen mips)
+      Using 'DXT1' pixel texture format
+      Using 'DXT3' pixel texture format
+      Using 'DXT5' pixel texture format
+      Using '3DC' pixel texture format
+      Using 'D24S8' pixel texture format
+      Using 'D16' pixel texture format
+      Using 'DF24' pixel texture format (Can autogen mips)
+      Using 'DF16' pixel texture format (Can autogen mips)
+      Using 'NULL' pixel texture format (Can autogen mips)
+      Using 'D16' pixel texture format (Can autogen mips)
+      Using 'D24S8' pixel texture format (Can autogen mips)
+    D3D Driver: Supports MaxAnisotropy level 16
+    D3D Driver: Textures (8x8)-(16384x16384), Max aspect 8192
+     Renderer HDR_Scalar: R32F
+     ****** D3D9 CryRender Stats ******
+     Driver description: AMD Radeon HD 7900 Series
+     Full stats: 
+     Hardware acceleration: Yes
+     Full scene AA: Disabled
+     Current Resolution: 1024x768x32 Windowed
+     Maximum texture size: 16384x16384 (Max Aspect: 8192)
+     Default textures filtering type: TRILINEAR
+     HDR Rendering: FP16
+     MRT HDR Rendering: Disabled
+     Occlusion queries: Supported
+     Geometry instancing: Supported
+     Vertex textures: Supported
+     Render to vertex buffer: Supported
+     R16F rendertarget: Supported
+     NormalMaps compression : Supported
+     Gamma control: Hardware
+     Vertex Shaders version 3.0
+     Pixel Shaders version 3.0
+    used GeomInstancingThreshold is 2
+     Shader model usage: 'SM.3.0, SM.2.X, SM.2.0 and SM.1.1'
+     *****************************************
+     
+    Init Shaders
+    Warning: Found token 'FSAAProfile 'G80'' which was not one of the list (Skipping).
+        Version
+        DeviceGroupID
+        MSAAProfile
+    Flushing pended shaders...
+    Finished flushing pended shaders...
+    Flushing pended shaders...
+    Finished flushing pended shaders...
+     General shader quality: VeryHigh
+     Metal shader quality: VeryHigh
+     Glass shader quality: VeryHigh
+     Vegetation shader quality: VeryHigh
+     Ice shader quality: VeryHigh
+     Terrain shader quality: VeryHigh
+     Shadow shader quality: VeryHigh
+     Water shader quality: High
+     FX shader quality: VeryHigh
+     PostProcess shader quality: VeryHigh
+     HDR shader quality: VeryHigh
+     Sky shader quality: VeryHigh
+    Render quality: VeryHigh
+    Allocate render buffer for particles (16384 verts, 32768 tris)...
+    Init textures management (3049 Mb of video memory is available)...
+      Enabling of textures streaming...
+      Using 256 Mb of textures pool for streaming...
+      Video textures: Atlas clouds max size: 32 Mb
+      Video textures: Atlas sprites max size: 32 Mb
+      Video textures: Dynamic managed max size: 80 Mb
+      Reloading all textures...
+      Finished reloading textures...
+      Finished initializing textures streaming...
+Initializing CryScaleform...
+Using Scaleform GFx 3.3.94
+  Using dynamic pool
+Initializing CryScaleform done, MemUsage=632Kb
+Network initialization
+Initializing CryNetwork...
+[net] using iocp socket io management
+network hostname: Philipps
+  ip:25.130.114.123
+  ip:192.168.178.31
+[Network Version]: DEBUG DEVELOPMENT BUILD
+Initializing CryNetwork done, MemUsage=1244Kb
+MovieSystem initialization
+Initializing CryMovie...
+Initializing CryMovie done, MemUsage=152Kb
+Initialized hardware mouse (game is allowed to confine mouse to window)
+Console initialization
+Time initialization
+Input initialization
+    Initializing CryInput...
+    Initializing DirectInput
+    Initializing Keyboard
+    Initializing mouse
+    Initializing CryInput done, MemUsage=820Kb
+AI initialization
+    Initializing CryAISystem...
+    Initializing CryAISystem done, MemUsage=520Kb
+Initializing Animation System
+    Initializing CryAnimation...
+    Initializing CryAnimation done, MemUsage=356Kb
+Initializing 3D Engine
+    Initializing Cry3DEngine...
+    Initializing default materials...
+     Compile Illum@Common_ZPassPS(RT0)(PS) (46 instructions, 4/5 constants) ... 
+     Compile Illum@Common_GlowPassPS(RT0)(PS) (9 instructions, 5/5 constants) ... 
+     Compile Illum@Common_MotionBlurPassPS(RT0)(PS) (15 instructions, 0/0 constants) ... 
+     Compile Illum@Common_CausticsPassPS(RT0)(PS) (57 instructions, 7/7 constants) ... 
+     Compile Illum@Common_CustomRenderPassPS(RT0)(PS) (6 instructions, 2/2 constants) ... 
+     Compile Illum@Common_EffectLayerPassPS(RT0)(PS) (53 instructions, 11/11 constants) ... 
+     Compile Illum@Common_SG_PS(RT0)(PS) (1 instructions, 0/0 constants) ... 
+     Compile Illum@Common_ShadowPS(RT0)(PS) (1 instructions, 0/0 constants) ... 
+     Compile Illum@Common_DebugPassPS(RT0)(PS) (1 instructions, 0/0 constants) ... 
+     Compile Terrain@Common_ZPassPS(GL200000000)(RT0)(PS) (23 instructions, 2/3 constants) ... 
+     Compile Terrain@Common_CausticsPassPS(GL200000000)(RT0)(PS) (58 instructions, 7/7 constants) ... 
+     Compile Terrain@Common_SG_PS(GL200000000)(RT0)(PS) (1 instructions, 0/0 constants) ... 
+    Sky light: Optical lookup tables loaded off disc.
+    Initializing Cry3DEngine done, MemUsage=17992Kb
+Script System Initialization
+    Initializing CryScriptSystem...
+    Initializing CryScriptSystem done, MemUsage=508Kb
+Entity system initialization
+    Initializing CryEntitySystem...
+    Initializing CryEntitySystem done, MemUsage=724Kb
+Initializing AI System
+    AI: [AISYSTEM] Initialization started.
+    AI: Loaded 133 AI Behaviors in 0.13s...
+    AI: Loaded 0 AI Group Behaviors in 0.00s...
+    <Lua> [AI] 6 Formations loaded...
+    <Lua> [AI] 6 Formations loaded...
+    Registering CentralInterestManager with EntitySystem
+    AI: [AISYSTEM] Initialization finished.
+Waiting for login...
+Current Language: German 
+Windows Vista 6.2 (C:\Windows)
+Local time is 01:10:42 03/13/13, system running for 2894 minutes
+4096MB phys. memory installed, 4095MB paging available
+Current display mode is 1920x1080x32, (Unknown graphics card)
+IBM enhanced (101/102-key) keyboard and 16+ button mouse installed
+--------------------------------------------------------------------------------
+<Lua> [VehicleSystem]: got 5 vehicle implementations
+[Warning] CVar gl_maxSessionNameTimeWithoutConnection is already registered!
+[Warning] CVar g_maxGameBrowserResults is already registered!
+[PlayerProfiles] Login of user 'Philipp' successful.
+[PlayerProfiles] Found 1 profiles.
+   Profile 0 : 'default'
+[GameProfiles]: Successfully activated profile 'default' for user 'Philipp'
+[Error] UISetting uses undefined CVar: sys_flash_video_soundvolume
+OnSysSpecChange(3)
+Loading Config file HighSpec.cfg (game\config\highspec.cfg)
+    Flushing pended shaders...
+    Finished flushing pended shaders...
+    Flushing pended shaders...
+    Finished flushing pended shaders...
+[Warning] Config file editor.cfg not found!
+[FEATURETESTER] (No instance) Creating feature tester instance
+Finished loading item XML definitions from 'scripts/entities/items/xml'!
+Loading ammo XML definitions from 'scripts/entities/items/xml'!
+Finished loading ammo XML definitions from 'scripts/entities/items/xml'!
+Create AG musiclogic.xml
+Loading animation graph with different but supported version! Filename=Animations/graphs/musiclogic.ag Current=65 File=63
+Ending game context...
+<Lua> Loading AIAlertness.lua
+<Lua> Executing Vehiclepool..
+<Lua> Loading SmartObjectCondition.lua
+*** Init system render resources ***
+[Warning] Warning: CTexMan::ImagePreprocessing: ImagePreprocessing of non-power-of-two texture name='EngineAssets/ScreenSpace/AreaTex.dds' file='engineassets/screenspace/areatex.dds' (160x560) [File=engineassets/screenspace/areatex.dds]	<Scope> [Texture]EngineAssets/ScreenSpace/AreaTex.dds > [Texture][Texture]EngineAssets/ScreenSpace/AreaTex.dds
+[Warning] Warning: CTexMan::ImagePreprocessing: ImagePreprocessing of non-power-of-two texture name='EngineAssets/ScreenSpace/SearchTex.dds' file='engineassets/screenspace/searchtex.dds' (66x33) [File=engineassets/screenspace/searchtex.dds]	<Scope> [Texture]EngineAssets/ScreenSpace/SearchTex.dds > [Texture][Texture]EngineAssets/ScreenSpace/SearchTex.dds
+EDITOR: Set game mode: on
+Loading Config file singleplayer.cfg (game\config\singleplayer.cfg)
+AI: [AISYSTEM] Initializing AI Actions.
+AI: [AISYSTEM] Initializing Smart Objects.
+OnSysSpecChange(1)
+Loading Config file LowSpec.cfg (game\config\lowspec.cfg)
+    Flushing pended shaders...
+    Finished flushing pended shaders...
+    Flushing pended shaders...
+    Finished flushing pended shaders...
+[Warning] Config file editor.cfg not found!
+Loading WIP features file: 'Editor\UI\WipFeatures.xml'...
+Loaded 3 WIP features.
+Unloading all previous plugins
+Loading plugins...
+Can't find plugin directory 'Editor/Plugins'
+Document created
+Creating view...
+*** Start clearing render resources ***
+Flushing pended textures...
+Finished flushing pended textures...
+Opening document G:\Games\CryENGINE_PC_v3_4_4_6289_freesdk\game\Levels\GAME\GAME.cry
+[Error] 'config/lowspec.cfg' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'g:/games/cryengine_pc_v3_4_4_6289_freesdk/game/levels/game/heightmapdataw.editor_data' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'g:/games/cryengine_pc_v3_4_4_6289_freesdk/game/levels/game/heightmaplayeridbitmap.editor_data' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'g:/games/cryengine_pc_v3_4_4_6289_freesdk/game/levels/game/heightmapmodsectors.editor_data' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'g:/games/cryengine_pc_v3_4_4_6289_freesdk/game/levels/game/level.editor_xml' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'g:/games/cryengine_pc_v3_4_4_6289_freesdk/game/levels/game/leveldev.editor_data' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'g:/games/cryengine_pc_v3_4_4_6289_freesdk/game/levels/game/shadercache.editor_data' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'g:/games/cryengine_pc_v3_4_4_6289_freesdk/game/levels/game/terraincompileddata.editor_data' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'g:/games/cryengine_pc_v3_4_4_6289_freesdk/game/levels/game/vegetationinstancesarray.editor_data' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'g:/games/cryengine_pc_v3_4_4_6289_freesdk/user/sandbox/lastloadpath.preset' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'g:/games/cryengine_pc_v3_4_4_6289_freesdk/user/sandbox/macros.xml' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'libs/ui//texturepreload.xml' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/cgpshaders/_shared@common_shadowps.fxcb' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/cgpshaders/particlesnomat@particle_shadowps.fxcb' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/cgpshaders/particlesnomat@particlecustomrenderps.fxcb' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/cgpshaders/particlesnomat@particleps.fxcb' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/cgvshaders/_shared@common_shadowvs.fxcb' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/cgvshaders/particlesnomat@particle_shadowvs.fxcb' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/cgvshaders/particlesnomat@particlecustomrendervs.fxcb' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/cgvshaders/particlesnomat@particlevs.fxcb' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/common.cfib' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/commonshadowpass.cfib' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/fxconstantdefs.cfib' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/fxsamplerdefs.cfib' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/fxsetupenvvars.cfib' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/fxstreamdefs.cfib' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/lightpropagationvolumes.cfib' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/modificatorvt.cfib' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/particles.cfib' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/particlesnomat.cfxb' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/particlevt.cfib' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/shadelib.cfib' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/shadowcommon.cfib' was loaded after engine init but before level load/new (should be fixed)
+[Error] 'shaders/cache/d3d9/volumetricfog.cfib' was loaded after engine init but before level load/new (should be fixed)
+*** Start clearing render resources ***
+Flushing pended textures...
+Finished flushing pended textures...
+Loading from G:\Games\CryENGINE_PC_v3_4_4_6289_freesdk\game\Levels\GAME\GAME.cry...
+*** Start clearing render resources ***
+Flushing pended textures...
+Finished flushing pended textures...
+EDITOR: Set game mode: off
+Ending game context...
+    Destroying CActionGame instance 1D076BA8 (level="")
+        CCryLobbySessionHandler::OnGameShutdown(), m_userQuit=false, migrationState=0
+EDITOR: Set game mode: on
+Loading Config file singleplayer.cfg (game\config\singleplayer.cfg)
+<Lua> [AI] Reseting AI
+<Lua> [AI] Initialising TPS queries for Test
+<Lua> [AI] Initialising TPS queries for Grunt
+<Lua> PipeManager: Creating goal pipes
+--- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesFogOfWar.xml...
+--- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesBasicAI.xml...
+--- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesCivilian.xml...
+<Lua> PipeManager: Finished creating goal pipes!
+r_EyeAdaptationBase was reset to default
+---- Start: Load Sequence Groups
+---- End: Load Sequence Groups (0 seconds)
+Loading missions...
+---- Start: Load Terrain
+CRGBLayer::AllocateTiles 4x4 tiles 512 => 2048x2048 texture
+allocating editor height map (2048x2048)*4
+CRGBLayer::AllocateTiles 4x4 tiles 512 => 2048x2048 texture
+---- Start: 3D Engine level load
+Loading map 'game\levels\game' into engine...
+===== Loading Particle Effects =====
+Preloading Particle Effects...
+Particle Effects Loaded in 0.50 seconds
+<Lua> registering explosion and shapes with physics system...
+---- End: 3D Engine level load (0 seconds)
+---- Start: Loading Surface Types
+---- End: Loading Surface Types (0 seconds)
+---- Start: Loading Terrain Layers Info
+Loading layer settings...
+Loading layer texture (textures/defaults/grey.dds)...
+ Compile Terrain@Common_ZPassPS(GL200080000)(RT0)(PS) (23 instructions, 2/3 constants) ... 
+  loaded editor layer 0  name='Boden (gr n)' LayerID=1
+Loading layer texture (textures/defaults/grey.dds)...
+  loaded editor layer 1  name='Boden(matschig)' LayerID=3
+Loading layer texture (textures/defaults/grey.dds)...
+  loaded editor layer 2  name='Rock' LayerID=0
+Loading layer texture (textures/defaults/grey.dds)...
+ Compile Terrain@Common_ZPassPS(GL20c080000)(RT0)(PS) (23 instructions, 2/3 constants) ... 
+  loaded editor layer 3  name='Berge(schnee)' LayerID=2
+Loading layer texture (textures/defaults/grey.dds)...
+  loaded editor layer 4  name='Water.' LayerID=4
+Loading layer texture (textures/defaults/grey.dds)...
+  loaded editor layer 5  name='Boden(wald dunkel)' LayerID=5
+Loading layer texture (textures/defaults/grey.dds)...
+  loaded editor layer 6  name='Boden (Laubwald)' LayerID=7
+---- End: Loading Terrain Layers Info (0 seconds)
+---- Start: Load Terrain
+Constructing 5461 terrain nodes (1.7 MB) 
+===== Initializing terrain nodes ===== 
+===== Loading outdoor instances ===== 
+---- End: Load Terrain (0 seconds)
+---- Start: Load Vegetation
+Loading Vegetation Map...
+---- End: Load Vegetation (2 seconds)
+---- Start: Terrain Postprocess
+---- End: Terrain Postprocess (0 seconds)
+---- Start: Process RGB Terrain Layers
+---- End: Process RGB Terrain Layers (0 seconds)
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+---- End: Load Terrain (6 seconds)
+---- Start: Reposition Vegetation
+---- End: Reposition Vegetation (0 seconds)
+---- Start: Load MaterialManager
+---- End: Load MaterialManager (0 seconds)
+---- Start: Load Particles
+---- End: Load Particles (0 seconds)
+---- Start: Load Music
+---- End: Load Music (0 seconds)
+---- Start: Load GameTokens
+---- End: Load GameTokens (0 seconds)
+Loading View settings...
+---- Start: Updating Surface Types
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+---- End: Updating Surface Types (0 seconds)
+Loading Fog settings...
+---- Start: Load Entity Archetypes Database
+---- End: Load Entity Archetypes Database (0 seconds)
+---- Start: Load Prefabs Database
+---- End: Load Prefabs Database (0 seconds)
+---- Start: Activating Mission Mission0
+[Warning] Particle effect not found: 'Waterfall.CXP_Waterfall.Splash_narrow'	<Scope> [Entity]ParticleEffect_13
+LUA is Unable to Precache Effect <Waterfall.CXP_Waterfall.Splash_narrow> because it does not exist!
+LUA is Unable to Precache Effect <Waterfall.CXP_Waterfall.Splash_narrow> because it does not exist!
+LUA is Unable to Precache Effect <Waterfall.CXP_Waterfall.Splash_narrow> because it does not exist! ok
+Loading AI Triangulation game\levels\game, Mission0
+--- AI: Reading vertex list
+--- AI: Verifying BAI file version
+--- AI: Reading nav graph.
+--- AI: Verifying BAI file version
+--- AI: Reading BBOX
+--- AI: Reading node descriptors
+--- AI: Verifying graph nodes
+--- AI: Creating graph nodes
+--- AI: Reading links
+--- AI: Reconnecting links
+--- AI: Finished Reconnecting links in  0.050 sec
+--- AI: Reading 3D volumes.
+--- AI: Reading AI volumes [game\levels\game/v3dMission0.bai]
+--- AI: AI volumes loaded  successfully in  0.001 sec. [game\levels\game/v3dMission0.bai]
+--- AI: AI num volumes = 0, num portals = 0
+--- AI: Reading Flight navigation.
+--- AI: Loading 0 links descriptors.
+--- AI: Connecting 0 links.
+--- AI: AI flight nav loaded successfully in  0.002 (spans =  0.000, links =  0.002) sec. [game\levels\game/fnavMission0.bai]
+--- AI: Reading Road navigation
+--- AI: Reading 3D surface navigation
+--- AI: CWaypoint3DSurfaceNavRegion::ReadFromFile game\levels\game/waypt3DsfcMission0.bai
+--- AI: Building forbidden QuadTrees
+--- AI: Navigation Data Loaded in  0.19 sec
+Finished Loading AI Triangulation in  0.192 secs
+---- End: Activating Mission Mission0 (0 seconds)
+---- Start: Load Sequence Groups
+---- End: Load Sequence Groups (0 seconds)
+---- Start: Load Level Shader Cache
+818 shader combination loaded for level game\levels\game
+---- End: Load Level Shader Cache (0 seconds)
+---- Start: Post Load
+Create AG humanmalefullbody.xml
+Loading animation graph with different but supported version! Filename=Animations/graphs/humanmalefullbody.ag Current=65 File=63
+Create AG humanmaleupperbody.xml
+Loading animation graph with different but supported version! Filename=Animations/graphs/humanmaleupperbody.ag Current=65 File=63
+[Warning] CryAnimation: process Aimpose 'animations/human_male/relaxed/relaxed_idleaimposes_scar.caf'	<Scope> [Entity]Dude > [CDF]objects/characters/sdk_player/sdk_player.cdf > [CHR]objects/characters/sdk_player/sdk_skeleton.chr
+[Warning] CryAnimation: process Aimpose 'animations/human_male/crouch/crouch_idleaimposes_scar.caf'	<Scope> [Entity]Dude > [CDF]objects/characters/sdk_player/sdk_player.cdf > [CHR]objects/characters/sdk_player/sdk_skeleton.chr
+[Warning] CryAnimation: process Aimpose 'animations/human_male/lookposes/lookposes_sdk_fullbody.caf'	<Scope> [Entity]Dude > [CDF]objects/characters/sdk_player/sdk_player.cdf > [CHR]objects/characters/sdk_player/sdk_skeleton.chr
+[Warning] CryAnimation: process Aimpose 'animations/human_male/lookposes/lookposes_sdk_head.caf'	<Scope> [Entity]Dude > [CDF]objects/characters/sdk_player/sdk_player.cdf > [CHR]objects/characters/sdk_player/sdk_skeleton.chr
+  251 animation-assets loaded (total assets: 188)
+  10 animation-assets loaded (total assets: 200)
+  13 animation-assets loaded (total assets: 200)
+  6 animation-assets loaded (total assets: 206)
+  8 animation-assets loaded (total assets: 214)
+  15 animation-assets loaded (total assets: 235)
+  9 animation-assets loaded (total assets: 244)
+<Lua> warning: No spawn points; using default spawn location!
+-- Presort shaders by states...
+--- 377 Resources, 183 Resource groups.
+-- Precaching textures...
+[Warning] Texture does not exist [File=engine/engineassets/texturemsg/replaceme.dds]	<Scope> [Texture][ParticleLibrary]breakable_objects > [Particle Effect]breakable_objects.tree_break.small.geo3 > [CGF]EngineAssets/Objects/Default.cgf > [Material]EngineAssets/Objects/helper > [Texture]engine/engineassets/texturemsg/replaceme.dds
+[Warning] Texture does not exist [File=engine/engineassets/texturemsg/replaceme.dds]	<Scope> [Texture][ParticleLibrary]breakable_objects > [Particle Effect]breakable_objects.tree_break.small.geo3 > [CGF]EngineAssets/Objects/Default.cgf > [Material]EngineAssets/Objects/helper > [Texture]engine/engineassets/texturemsg/replaceme.dds
+Precaching textures done in 1.50 seconds
+---- End: Post Load (3 seconds)
+[LevelLoadTime] Level game\levels\game loaded in 12 seconds
+========================= Errors =========================
+  0) [ 2]	[Renderer]	Texture does not exist	engine/engineassets/texturemsg/replaceme.dds
+  1) [ 1]	[Engine]	Particle effect not found: 'Waterfall.CXP_Waterfall.Splash_narrow'	 	 Object="ParticleEffect_13"
+  2) [ 1]	[System]	[Warning] CryAnimation: process Aimpose 'animations/human_male/crouch/crouch_idleaimposes_scar.caf'	<Scope> [Entity]Dude > [CDF]objects/characters/sdk_player/sdk_player.cdf > [CHR]objects/characters/sdk_player/sdk_skeleton.chr	 
+  3) [ 1]	[System]	[Warning] CryAnimation: process Aimpose 'animations/human_male/lookposes/lookposes_sdk_fullbody.caf'	<Scope> [Entity]Dude > [CDF]objects/characters/sdk_player/sdk_player.cdf > [CHR]objects/characters/sdk_player/sdk_skeleton.chr	 
+  4) [ 1]	[System]	[Warning] CryAnimation: process Aimpose 'animations/human_male/lookposes/lookposes_sdk_head.caf'	<Scope> [Entity]Dude > [CDF]objects/characters/sdk_player/sdk_player.cdf > [CHR]objects/characters/sdk_player/sdk_skeleton.chr	 
+  5) [ 1]	[System]	[Warning] CryAnimation: process Aimpose 'animations/human_male/relaxed/relaxed_idleaimposes_scar.caf'	<Scope> [Entity]Dude > [CDF]objects/characters/sdk_player/sdk_player.cdf > [CHR]objects/characters/sdk_player/sdk_skeleton.chr	 
+  6) [ 1]	[System]	[Warning] Particle effect not found: 'Waterfall.CXP_Waterfall.Splash_narrow'	<Scope> [Entity]ParticleEffect_13	 	 Object="ParticleEffect_13"
+  7) [ 2]	[System]	[Warning] Texture does not exist [File=engine/engineassets/texturemsg/replaceme.dds]	<Scope> [Texture][ParticleLibrary]breakable_objects > [Particle Effect]breakable_objects.tree_break.small.geo3 > [CGF]EngineAssets/Objects/Default.cgf > [Material]EngineAssets/Objects/helper > [Texture]engine/engineassets/texturemsg/replaceme.dds	 
+========================= End Errors =========================
+File access time during level loading: 2.20 seconds
+--- Warming-up textures...
+-----------------------------------------------------------
+Successfully opened document G:\Games\CryENGINE_PC_v3_4_4_6289_freesdk\game\Levels\GAME\GAME.cry
+Level loading time: 18.34 seconds
+-----------------------------------------------------------
+Adding for file change notifications: 'G:\Games\CryENGINE_PC_v3_4_4_6289_freesdk\game\'
+Adding for file change notifications: 'G:\Games\CryENGINE_PC_v3_4_4_6289_freesdk\engine\'
+[Warning] CVar m_fViconScale is already registered!
+Loading Localization File localization\text_ui_ingame.xml
+Loading Localization File localization\text_ui_menus.xml
+Loading Localization File localization\text_ui_levels.xml
+Loading Localization File localization\text_ui_warnings.xml
+Loading Localization File localization\ai_dialog_recording_list.xml
+Loading Localization File localization\dialog_recording_list.xml
+[CONSOLE] Executing console command 'exec autoexec.cfg'
+    Executing console batch file (try game,config,root): "autoexec.cfg" not found!
+[CONSOLE] Executing console command 'exec editor.cfg'
+    Executing console batch file (try game,config,root): "editor.cfg" not found!
+[CONSOLE] Executing console command 'exec user.cfg'
+    Executing console batch file (try game,config,root): "user.cfg" not found!
+Opening terrain\cover.ctc ...
+  TerrainLayer 0: TexFormat: DXT5, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
+  TerrainLayer 1: TexFormat: DXT5, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
+  RGB multiplier: 1, Texture indices: 341
+=============================================================================
+*ERROR
+=============================================================================
+*** Memory allocation for 4294967295 bytes failed ****
+*** Memory allocation for 4294967295 bytes failed ****
+Windows 64 bit (build 6.2.9200)
+User name: "Philipp"
+System language: German
+Windows Directory: "C:\Windows"
+Prerequisites...
+* Installation of KB940105 hotfix required: no! (either not needed or already installed)
+Local time is 01:11:13 03/13/13, system running for 2894 minutes
+12287MB physical memory installed, 9564MB available, 4095MB virtual memory installed, 22 percent of memory in use
+PageFile usage: 553MB, Working Set: 504MB, Peak PageFile usage: 565MB,
+Current display mode is 1920x1080x32, (Unknown graphics card)
+IBM enhanced (101/102-key) keyboard and 16+ button mouse installed
+--------------------------------------------------------------------------------
+Cry3DEngine.dll Used in module:69670612 Allocations:1087525
+CryAction.dll Used in module:973014 Allocations:192614
+CryAISystem.dll Used in module:7637410 Allocations:154288
+CryAnimation.dll Used in module:7263472 Allocations:83951
+CryEntitySystem.dll Used in module:788983 Allocations:5407
+CryFont.dll Used in module:196853 Allocations:705
+CryInput.dll Used in module:33423 Allocations:1289
+CryMovie.dll Used in module:9992 Allocations:74
+CryNetwork.dll Used in module:511013 Allocations:3052
+CryPhysics.dll Used in module:46881503 Allocations:197660
+CryScaleform.dll Used in module:2456 Allocations:200
+CryScriptSystem.dll Used in module:66875 Allocations:1669
+CrySoundSystem.dll Used in module:52712361 Allocations:334
+CrySystem.dll Used in module:65066347 Allocations:498897
+CryGame.dll Used in module:129161 Allocations:2994
+Editor.exe Used in module:59254081 Allocations:799577
+*** Memory allocation for 4294967295 bytes failed ****
+<CRITICAL EXCEPTION>
+Exception: 0xC0000005, at Address: 0x0023:0x0394A531
+Virtual memory usage: 553Mb
+Debug Status: 
+Removing file "error.log"...
+File successfully removed.
+Removing file "error.dmp"...
+File successfully removed.
+Exception Code: FATAL_ERROR
+Exception Addr: 
+Exception Module: 
+Exception Name  : FATAL_ERROR
+Exception Description: 
+Saved dump file to 'error.dmp'
+Attempting to create error screenshot "error.bmp"
+Error creating screenshot.
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
+=============================================================================
