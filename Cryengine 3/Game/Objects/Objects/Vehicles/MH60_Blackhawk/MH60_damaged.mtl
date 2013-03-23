@@ -1,0 +1,30 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="exterior" MtlFlags="524416" Shader="Illum" GenMask="82101" StringGenMask="%ALLOW_POM%ALLOW_TESSELATION%DETAIL_BUMP_MAPPING%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.90980399,0.90980399,0.90980399" Specular="0.94901967,0.94901967,0.94901967" Emissive="0,0,0" Shininess="33.900002" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/mh60_blackhawk/mh60_destroyed_exterior.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/mh60_blackhawk/mh60_destroyed_exterior.tif"/>
+    <Texture Map="Detail" File="objects/vehicles/mh60_blackhawk/mh60_destroyed_detail.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4.1869998" DetailBumpTillingU="1" DetailBlendAmount="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1.1799999" FresnelBias="0.18099999" DetailBumpScale="0.69999999" DetailBumpTillingV="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="interior" MtlFlags="524416" Shader="Illum" GenMask="2101" StringGenMask="%ALLOW_POM%ALLOW_TESSELATION%DETAIL_BUMP_MAPPING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0.06666667,0.06666667,0.06666667" Emissive="0,0,0" Shininess="5" Opacity="1" GlowAmount="0.5">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/mh60_blackhawk/mh60_destroyed_interior.tif"/>
+    <Texture Map="Detail" File="objects/vehicles/mh60_blackhawk/mh60_destroyed_detail.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" DetailBumpTillingU="1" DetailBlendAmount="0" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" DetailBumpScale="1" GlossFromDiffuseBrightness="0.333" DetailBumpTillingV="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="entity" MtlFlags="524416" Shader="Illum" GenMask="2101" StringGenMask="%ALLOW_POM%ALLOW_TESSELATION%DETAIL_BUMP_MAPPING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0.058823533,0.058823533,0.058823533" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/mh60_blackhawk/mh60_destroyed_entity.tif"/>
+    <Texture Map="Detail" File="objects/vehicles/mh60_blackhawk/mh60_destroyed_detail.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" DetailBumpTillingU="1" DetailBlendAmount="0" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" DetailBumpScale="1" GlossFromDiffuseBrightness="0.333" DetailBumpTillingV="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.50980395,0.61960787,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

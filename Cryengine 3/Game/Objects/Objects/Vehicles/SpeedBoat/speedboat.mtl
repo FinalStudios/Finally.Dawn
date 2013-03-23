@@ -1,0 +1,85 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="glass" MtlFlags="524416" Shader="Illum" GenMask="100000000" StringGenMask="%TESSELLATION" SurfaceType="mat_glass" MatTemplate="" Diffuse="0.69411767,0.69411767,0.69411767" Specular="0,0,0" Emissive="0,0,0" Shininess="500" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/speedboat/speedboat_glass.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="chassis" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="0.69803923,0.69803923,0.69803923" Specular="0,0,0" Emissive="0,0,0" Shininess="500" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="speedboat_glass" MtlFlags="524416" Shader="Illum" GenMask="100000000" StringGenMask="%TESSELLATION" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.21176472,0.28235295,0.32941177" Specular="0.27058801,0.33333299,0.388235" Emissive="0,0,0" Shininess="2" Opacity="0.59399998">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/glass/glass_clear_diff.dds"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="upper_body" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.3921569,0.37254903,0.33333334" Specular="0.27451,0.27451,0.27451" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/speedboat/speedboat_upper_body.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/speedboat/speedboat_upper_body_spec.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="stripes" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.50980401,0.50980401,0.50980401" Specular="0.49411801,0.49411801,0.49411801" Emissive="0,0,0" Shininess="4" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/speedboat/speedboat_stripes.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/speedboat/speedboat_stripes_spec.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="temp" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="0.24313727,0.18431373,0.086274512" Specular="0,0,0" Emissive="0,0,0" Shininess="500" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="wooden" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="0.42745101,0.32941177,0.15294118" Specular="0,0,0" Emissive="0,0,0" Shininess="500" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="floor" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.49411768,0.49411768,0.49411768" Specular="0.137255,0.137255,0.137255" Emissive="0,0,0" Shininess="6" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/speedboat/speedboat_floor.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/speedboat/speedboat_floor_spec.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="body" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.57647061,0.50588238,0.45098042" Specular="0.286275,0.286275,0.286275" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/speedboat/speedboat_body.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/speedboat/speedboat_body_spec.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="dashboard" MtlFlags="524416" Shader="Illum" GenMask="100080002" StringGenMask="%ALPHAGLOW%GLOSS_MAP%TESSELLATION" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.49411768,0.49411768,0.49411768" Specular="0.227451,0.227451,0.227451" Emissive="0,0,0" Shininess="13" Opacity="1" GlowAmount="15">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/speedboat/speedboat_dashboard.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/speedboat/speedboat_dashboard_spec.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" AmbientMultiplier="10" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="details" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.188235,0.188235,0.188235" Emissive="0,0,0" Shininess="12" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/speedboat/speedboat_details.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/speedboat/speedboat_details_spec.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal_pipes" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.61176473,0.61176473,0.61176473" Specular="0.580392,0.580392,0.580392" Emissive="0,0,0" Shininess="3" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/speedboat/speedboat_metal.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/speedboat/speedboat_metal_spec.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,0.47451001,0.047058798" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.15000001">
+   <Textures />
+  </Material>
+  <Material Name="damaged" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.50980401,0.50980401,0.50980401" Specular="0.0588235,0.0588235,0.0588235" Emissive="0,0,0" Shininess="2" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/abrams/us_tank_damage.dds"/>
+    <Texture Map="Specular" File="objects/vehicles/abrams/us_tank_damage.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

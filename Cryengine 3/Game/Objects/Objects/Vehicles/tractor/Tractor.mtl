@@ -1,0 +1,64 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="Big_Wheels1" MtlFlags="524416" Shader="Illum" GenMask="80001" StringGenMask="%ALLOW_TESSELATION%GLOSS_MAP" SurfaceType="mat_rubber" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/tractor/textures/big_wheels_dif.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/tractor/textures/big_wheels_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/tractor/textures/big_wheels_nor.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Engine2" MtlFlags="524416" Shader="Illum" GenMask="80001" StringGenMask="%ALLOW_TESSELATION%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/tractor/textures/engine_dif.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/tractor/textures/engine_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/tractor/textures/engine_nor.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Hull1" MtlFlags="524416" Shader="Illum" GenMask="80001" StringGenMask="%ALLOW_TESSELATION%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/tractor/textures/hull_dif.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/tractor/textures/hull_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/tractor/textures/hull_nor.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Misc2" MtlFlags="524416" Shader="Illum" GenMask="80001" StringGenMask="%ALLOW_TESSELATION%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/tractor/textures/misc_dif.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/tractor/textures/misc_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/tractor/textures/misc_nor.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Mudguard1" MtlFlags="524416" Shader="Illum" GenMask="80001" StringGenMask="%ALLOW_TESSELATION%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/tractor/textures/mud_guard_dif.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/tractor/textures/mud_guard_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/tractor/textures/mud_guard_nor.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Roof2" MtlFlags="524416" Shader="Illum" GenMask="80001" StringGenMask="%ALLOW_TESSELATION%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/tractor/textures/roof_dif.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/tractor/textures/roof_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/tractor/textures/roof_nor.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Small_Wheels" MtlFlags="524416" Shader="Illum" GenMask="80001" StringGenMask="%ALLOW_TESSELATION%GLOSS_MAP" SurfaceType="mat_rubber" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/tractor/textures/small_wheels_dif.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/tractor/textures/small_wheels_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/tractor/textures/small_wheels_nor.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.72548997,0.49788499,0.49788499" Specular="0.5,0.5,0.5" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>
