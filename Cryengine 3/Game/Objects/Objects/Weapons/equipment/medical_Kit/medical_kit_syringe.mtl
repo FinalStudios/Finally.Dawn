@@ -1,0 +1,19 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="syringe" MtlFlags="524418" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.227451,0.227451,0.227451" Specular="0.96078402,0.96078402,0.96078402" Emissive="0,0,0" Shininess="128" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/equipment/medical_kit/medical_kit_syringe.tif"/>
+    <Texture Map="Specular" File="objects/weapons/equipment/medical_kit/medical_kit_syringe_spec.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.40000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="syringe" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.21568599,0.21568599,0.21568599" Specular="0.67316097,0.67316097,0.67316097" Emissive="0,0,0" Shininess="128" Opacity="1" GlowAmount="0.60000002">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/equipment/medical_kit/medical_kit_syringe.tif"/>
+    <Texture Map="Specular" File="objects/weapons/equipment/medical_kit/medical_kit_syringe_spec.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.40000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

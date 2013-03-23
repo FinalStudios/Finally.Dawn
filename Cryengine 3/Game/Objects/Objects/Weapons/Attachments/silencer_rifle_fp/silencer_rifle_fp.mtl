@@ -1,0 +1,8 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="Objects/Weapons/Attachments/silencer_rifle_fp/silence_rifle_fp.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

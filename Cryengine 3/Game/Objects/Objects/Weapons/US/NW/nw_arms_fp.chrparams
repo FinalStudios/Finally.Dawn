@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="Animations\1st_person\NW"/>
+		<Animation name="$TracksDatabase" path=""/>
+
+		<Animation name="nw_arms_select" path="nw_arms_select.caf"/>
+		<Animation name="nw_arms_deselect" path="nw_arms_deselect.caf"/>
+		<Animation name="nw_arms_idle_right_01" path="nw_arms_idle.caf"/>
+		<Animation name="nw_arms_push" path="nw_arms_push.caf"/>
+		<Animation name="nw_remove_arm_left" path="nw_remove_arm_left.caf"/>
+		<Animation name="nw_arms_idle" path="nw_arms_idle.caf"/>
+		<Animation name="nw_arms_idle_relaxed" path="nw_arms_idle_relaxed.caf"/>
+		<Animation name="nw_swim_forward" path="nw_swim_forward.caf"/>
+		<Animation name="nw_arms_idle_right_akimbo_01" path="idle_right_akimbo_01.caf"/>
+		<Animation name="idle_right_akimbo_01" path="idle_right_akimbo.caf"/>
+		<Animation name="nw_arms_replace_akimbo" path="idle_replace_left_akimbo.caf"/>
+		<Animation name="nw_arms_remove_akimbo" path="idle_remove_left_akimbo.caf"/>
+		<Animation name="ROM_test" path="ROM_test.caf"/>
+	
+		
+	</AnimationList>
+</Params>

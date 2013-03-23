@@ -1,0 +1,18 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="base" MtlFlags="524416" Shader="Illum" GenMask="82009" StringGenMask="%ALLOW_POM%ANISO_SPECULAR%DETAIL_BUMP_MAPPING%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.063814871,0.063814871,0.063814871" Specular="0.50196099,0.50196099,0.50196099" Emissive="0,0,0" Shininess="39" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/Weapons/Silencer/textures/silencer_diff.tif"/>
+    <Texture Map="Specular" File="Objects/Weapons/Silencer/textures/silencer_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/silencer/textures/silencer_ddn.tif"/>
+    <Texture Map="Detail" File="textures/detail/detail_metal_ddn.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="5" DetailBumpTillingU="15.9" DetailBlendAmount="0" GlossMapChannelB="0" AnisotropicShape="0.25" SpecMapChannelG="0" FresnelScale="0.40000001" FresnelBias="0.32499999" DetailBumpScale="3.25" DetailBumpTillingV="1.9" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_POM" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0.141176,0.16078401" Specular="0,0,0" Emissive="0,0,0" Shininess="12.49" Opacity="1">
+   <Textures />
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

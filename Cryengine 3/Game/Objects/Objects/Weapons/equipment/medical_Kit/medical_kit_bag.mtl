@@ -1,0 +1,15 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="medical_kit_bag" MtlFlags="524416" Shader="Illum" GenMask="100000000" StringGenMask="%TESSELLATION" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.48776522,0.48776522,0.48776522" Specular="0.19751643,0.19751643,0.19751643" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/equipment/medical_kit/medical_kit_bag.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/equipment/medical_kit/medical_kit_bag_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="0.40000001" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="no_draw" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.38039199,0.062745102,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

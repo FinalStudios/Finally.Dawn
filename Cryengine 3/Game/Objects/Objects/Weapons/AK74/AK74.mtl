@@ -1,0 +1,33 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="AK74_Metal" MtlFlags="524416" Shader="Illum" GenMask="80000" StringGenMask="%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.23137257,0.23137257,0.23137257" Specular="0.88199997,0.88199997,0.88199997" Emissive="0,0,0" Shininess="23" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/AK74/AK74_MetalParts_diffuse.tif"/>
+    <Texture Map="Specular" File="objects/weapons/ak74/ak74_metalparts_spec.dds"/>
+    <Texture Map="Bumpmap" File="objects/weapons/ak74/ak74_metalparts_normal.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Wood" MtlFlags="524416" Shader="Illum" GenMask="80000" StringGenMask="%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.76078439,0.29803923,0.17254902" Specular="0.59399998,0.59399998,0.59399998" Emissive="0,0,0" Shininess="38" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/Weapons/AK74/AK74_WoodenParts_diffuse.tif"/>
+    <Texture Map="Specular" File="objects/weapons/ak74/ak74_woodenparts_spec.dds"/>
+    <Texture Map="Bumpmap" File="objects/weapons/ak74/ak74_woodenparts_normal.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="524416" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,0.20392159,0.20392159" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.5">
+   <Textures />
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Grenade_Launcher" MtlFlags="524416" Shader="Illum" GenMask="80000" StringGenMask="%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0.70199996,0.70199996,0.70199996" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/Weapons/AK74/Grenade_Launcher_Diffuse.tif"/>
+    <Texture Map="Specular" File="objects/weapons/ak74/grenade_launcher_spec.dds"/>
+    <Texture Map="Bumpmap" File="objects/weapons/ak74/grenade_launcher_normal.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

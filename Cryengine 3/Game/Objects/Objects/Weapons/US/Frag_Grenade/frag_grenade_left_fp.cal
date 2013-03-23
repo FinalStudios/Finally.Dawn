@@ -1,0 +1,19 @@
+#filepath = Animations\1st_person\frag_Grenade\left\
+$TracksDatabase						=	animations\1st_person\frag_grenade_left_fp.dba
+
+//Minimum Required Animations
+
+throw_grenade_left			=	throw_grenade_left.caf
+pick_up_item_left			=	pick_up_item_left.caf
+idle_object					=	idle_object.caf
+idle_right_akimbo_01 = idle_right_akimbo.caf
+idle_relaxed					=	idle_relaxed_frag.caf
+nw_arms_idle_relaxed					=	nw_arms_idle_relaxed.caf
+
+
+
+
+
+
+
+
