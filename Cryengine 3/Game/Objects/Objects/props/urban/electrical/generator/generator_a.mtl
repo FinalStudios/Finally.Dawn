@@ -1,0 +1,25 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="generator" MtlFlags="524416" Shader="Illum" GenMask="2000042001" StringGenMask="%ALLOW_TESSELATION%DETAIL_BUMP_MAPPING%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.27058825,0.32549021,0.36078432" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/urban/electrical/generator/generator_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/urban/electrical/generator/generator_a_ddn.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal_scratches_detailbump_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" DetailBumpTillingU="6" DetailBlendAmount="0" FresnelScale="1" FresnelBias="1" DetailBumpScale="0.60000002" DetailBumpTillingV="6" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal_parts" MtlFlags="524416" Shader="Illum" GenMask="2000040001" StringGenMask="%ALLOW_TESSELATION%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.51372552,0.51372552,0.51372552" Specular="0.1254902,0.1254902,0.1254902" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/metal/metal_parts_a_diff.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.51372552,0.51372552,0.51372552" Specular="0.1254902,0.1254902,0.1254902" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_railing" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,39 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="Hull" MtlFlags="524416" Shader="Illum" GenMask="2100090008" StringGenMask="%ANISO_SPECULAR%ENVIRONMENT_MAP%GLOSS_MAP%TESSELLATION%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.1137255,0.12941177,0.10588236" Emissive="0,0,0" Shininess="1.5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/karavan/k_hull_diff.tif" Filter="4"/>
+    <Texture Map="Specular" File="objects/props/misc/karavan/k_hull_spec.tif" Filter="4"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/karavan/k_hull_ddn.tif"/>
+    <Texture Map="Environment" File="textures/env_maps/env_plastic.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" AnisotropicShape="0.5" SpecMapChannelG="0" FresnelScale="0.5" FresnelBias="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Interior" MtlFlags="524416" Shader="Illum" GenMask="210008000A" StringGenMask="%ALPHAGLOW%ANISO_SPECULAR%GLOSS_MAP%TESSELLATION%VERTCOLORS" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0.50196081,0.50196081,0.50196081" Emissive="0,0,0" Shininess="4" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/karavan/k_interior_diff.tif"/>
+    <Texture Map="Specular" File="objects/props/misc/karavan/k_interior_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/karavan/k_interior_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" AnisotropicShape="0.5" SpecMapChannelG="0" FresnelScale="1" AmbientMultiplier="0" FresnelBias="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Glass" MtlFlags="526498" Shader="Glass" GenMask="90010" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP%GLOSS_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.42745101,0.37647063,0.227451" Specular="0.30588236,0.41176474,0.38039219" Emissive="0,0,0" Shininess="110.3" Opacity="0.5">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/karavan/zr_windows_destroyed_diff.tif"/>
+    <Texture Map="Specular" File="objects/props/misc/karavan/zr_windows_destroyed_spec.tif"/>
+    <Texture Map="Environment" File="textures/env_maps/env_plastic.dds" TexType="3"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="1,1,1" FresnelPower="4" FresnelScale="2" FresnelBias="0.34999999" TintCloudiness="0" BackLightScale="2" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Tinted" MtlFlags="524416" Shader="Illum" GenMask="2100090008" StringGenMask="%ANISO_SPECULAR%ENVIRONMENT_MAP%GLOSS_MAP%TESSELLATION%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.22331043,0.013473397,0.0083731171" Specular="0.15686275,0.21176472,0.29019609" Emissive="0,0,0" Shininess="4" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/karavan/k_hull_diff.tif" Filter="4"/>
+    <Texture Map="Specular" File="objects/props/misc/karavan/k_hull_spec.tif" Filter="4"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/karavan/k_hull_ddn.tif"/>
+    <Texture Map="Environment" File="textures/env_maps/env_plastic.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" AnisotropicShape="0.40599999" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.168" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

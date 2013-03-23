@@ -1,0 +1,37 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="cardboard" MtlFlags="524416" Shader="Illum" GenMask="2000002000" StringGenMask="%DETAIL_BUMP_MAPPING%VERTCOLORS" SurfaceType="mat_default" MatTemplate="" Diffuse="0.4784314,0.45490199,0.42745101" Specular="0,0,0" Emissive="0,0,0" Shininess="30" Opacity="1" AlphaTest="0.039999999">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/storage/crates/cardboard_boxes/cardboard_boxa.tif"/>
+    <Texture Map="Detail" File="textures/terrain/bump_detail/detail_bump_metal_006_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" DetailBumpTillingU="2" DetailBlendAmount="0" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" DetailBumpScale="1" GlossFromDiffuseBrightness="0.333" DetailBumpTillingV="2" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="plastic" MtlFlags="524416" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,1,1" Specular="3,3,3" Emissive="0,0,0" Shininess="5" Opacity="0.14">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/architecture/aircraftcarrier/128gray.tif"/>
+    <Texture Map="Environment" File="objects/library/architecture/aircraftcarrier/textures/reflections3.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="bananas" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="banana" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.75294101,0.75294101,0.75294101" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="destroyed" MtlFlags="524418" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="mat_default" MatTemplate="" Diffuse="0.4784314,0.45490199,0.42745101" Specular="0,0,0" Emissive="0,0,0" Shininess="30" Opacity="1" AlphaTest="0.25">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/storage/crates/cardboard_boxes/cardboard_boxa_destroyed.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="banana_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_default" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="cardboard_collision" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_default" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

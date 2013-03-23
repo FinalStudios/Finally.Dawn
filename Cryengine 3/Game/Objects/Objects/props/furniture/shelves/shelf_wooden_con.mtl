@@ -1,0 +1,16 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="frame" MtlFlags="524416" Shader="Illum" GenMask="20000C0000" StringGenMask="%GLOSS_DIFFUSEALPHA%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.25902736,0.25902736,0.25902736" Specular="0.105882,0.105882,0.105882" Emissive="0,0,0" Shininess="5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/furniture/shelves/house_small_a_walls.tif"/>
+    <Texture Map="Specular" File="objects/props/furniture/shelves/house_small_a_walls_spec.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.30000001">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

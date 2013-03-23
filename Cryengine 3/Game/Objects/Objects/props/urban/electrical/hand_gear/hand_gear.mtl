@@ -1,0 +1,35 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="hand_gear" MtlFlags="524416" Shader="Illum" GenMask="2100000001" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.1137255,0.1137255,0.1137255" Emissive="0,0,0" Shininess="2.5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/urban/electrical/hand_gear/hand_gear_diff.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/props/urban/electrical/hand_gear/hand_gear_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="10.29"/>
+  </Material>
+  <Material Name="steelbar" MtlFlags="524416" Shader="Illum" GenMask="2100040001" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0.50980395,0.50980395,0.50980395" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/metal/metal_steelbar_diff.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="metal_plate" MtlFlags="524416" Shader="Illum" GenMask="2100040001" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.51372552,0.51372552,0.51372552" Specular="0.1254902,0.1254902,0.1254902" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/metal/metal_parts_a_diff.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.53333336,0.53333336,0.53333336" Specular="0.58431375,0.58431375,0.58431375" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

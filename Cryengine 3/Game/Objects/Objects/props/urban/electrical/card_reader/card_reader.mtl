@@ -1,0 +1,16 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="metal" MtlFlags="524416" Shader="Illum" GenMask="2000082001" StringGenMask="%ALLOW_POM%DETAIL_BUMP_MAPPING%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.26317474,0.33922336,0.2801244" Specular="0.84398323,0.84398323,0.84398323" Emissive="0,0,0" Shininess="20.9" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/urban/electrical/card_reader/card_reader_diff.tif"/>
+    <Texture Map="Specular" File="objects/props/urban/electrical/card_reader/card_reader_spec.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" DetailBumpTillingU="4" DetailBlendAmount="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" DetailBumpScale="0.80000001" DetailBumpTillingV="4" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525472" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0.31764701,0.31764701,0.31764701" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

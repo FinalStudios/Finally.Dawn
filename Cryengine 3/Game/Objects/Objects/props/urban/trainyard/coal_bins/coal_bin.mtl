@@ -1,0 +1,42 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="roundhouse_wood" MtlFlags="524416" Shader="Illum" GenMask="2000040001" StringGenMask="%ALLOW_POM%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.37647063,0.37647063,0.37647063" Specular="0.18823531,0.18823531,0.18823531" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/wood/wood_sheets_diff.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal_re-use" MtlFlags="524416" Shader="Illum" GenMask="2000080001" StringGenMask="%ALLOW_POM%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.3921569,0.3921569,0.3921569" Specular="0.87450987,0.87450987,0.87450987" Emissive="0,0,0" Shininess="3" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/metal/metal_plate_a_diff.tif"/>
+    <Texture Map="Specular" File="textures/metal/metal_plate_a_spec.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="coal" MtlFlags="524416" Shader="Illum" GenMask="2000040001" StringGenMask="%ALLOW_POM%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_soil" MatTemplate="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="2,2,2" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/urban/trainyard/coal_bins/coals_diff.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="concrete" MtlFlags="524416" Shader="Illum" GenMask="2000040001" StringGenMask="%ALLOW_POM%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.50196081,0.50196081,0.50196081" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/concrete/ground/concrete_ground_b_diff.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_coal" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="0,58823532,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10">
+   <Textures />
+  </Material>
+  <Material Name="proxy_wood" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="0,59215688,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10">
+   <Textures />
+  </Material>
+  <Material Name="proxy_concrete" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0,90980400,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10">
+   <Textures />
+  </Material>
+  <Material Name="proxy_metal" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,94117656,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,16 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="Rusted_Steel" MtlFlags="524416" Shader="Illum" GenMask="2000008001" StringGenMask="%ALLOW_POM%DIRTLAYER%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.04145189,0.04145189,0.04145189" Specular="0.034230206,0.034230206,0.034230206" Emissive="0,0,0" Shininess="31" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/steel_beams/tex/rusted_steel.tif"/>
+    <Texture Map="Custom" File="objects/props/industrial/steel_beams/tex/rust_detail.tif"/>
+    <Texture Map="[1] Custom" File="objects/props/industrial/steel_beams/tex/rust_detail.tif"/>
+   </Textures>
+   <PublicParams DirtTint="0.35865393,0.27157745,0.21204439" FresnelPower="4" GlossFromDiffuseContrast="2.54" DirtGlossFactor="1" DirtTiling="0.41999999" FresnelScale="1" GlossFromDiffuseOffset="0" DirtStrength="0.64999998" FresnelBias="1" GlossFromDiffuseAmount="1" GlossFromDiffuseBrightness="1.4" DirtMapAlphaInfluence="0.46399999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

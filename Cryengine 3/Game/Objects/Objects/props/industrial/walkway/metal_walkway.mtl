@@ -1,0 +1,27 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="metal_railing" MtlFlags="524416" Shader="Illum" GenMask="200004A001" StringGenMask="%ALLOW_TESSELATION%DETAIL_BUMP_MAPPING%DIRTLAYER%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.060031611,0.060031611,0.060031611" Specular="0.037028514,0.037028514,0.037028514" Emissive="0,0,0" Shininess="57" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/steel_beams/tex/rust_detail.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal_ddn.tif"/>
+    <Texture Map="Custom" File="objects/props/industrial/steel_beams/tex/rusted_steel.tif"/>
+   </Textures>
+   <PublicParams DirtTint="0.37867627,0.18014428,0.098689198" FresnelPower="4" DetailBumpTillingU="2" DetailBlendAmount="0" DirtGlossFactor="0" DirtTiling="0.56" FresnelScale="1" DirtStrength="1" FresnelBias="1" DetailBumpScale="0.62" DetailBumpTillingV="2" DirtMapAlphaInfluence="0.71100003" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="walkway_panel" MtlFlags="524418" Shader="Illum" GenMask="2000000001" StringGenMask="%ALLOW_TESSELATION%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.14497213,0.14497213,0.14497213" Specular="0.22331043,0.22331043,0.22331043" Emissive="0,0,0" Shininess="28" Opacity="1" AlphaTest="0.5">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/walkway/tx/grated_steel.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/industrial/walkway/tx/grated_steel_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="1" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="stair_panels" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_TESSELATION" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.5,0.5,0.5" Specular="0.5,0.5,0.5" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.5,0.5,0.5" Specular="0.5,0.5,0.5" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

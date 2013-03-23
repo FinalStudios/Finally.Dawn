@@ -1,0 +1,30 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="metal_bare" MtlFlags="524416" Shader="Illum" GenMask="2000080009" StringGenMask="%ALLOW_POM%ANISO_SPECULAR%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.51764709,0.51764709,0.51764709" Emissive="0,0,0" Shininess="20" Opacity="1" vertModifType="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/metal/drain_pipe_diff.tif"/>
+    <Texture Map="Specular" File="textures/metal/drain_pipe_spec.tif"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="24.200001" DividerY="31" DividerZ="5.9000001" DividerW="0.0099999998" NoiseScale="1,1,35.869999">
+    <WaveZ Type="1" Amp="25.200001" Level="16.6" Phase="32.400002" Freq="28.700001"/>
+   </VertexDeform>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" AnisotropicShape="0.25" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="details" MtlFlags="524416" Shader="Illum" GenMask="2000040001" StringGenMask="%ALLOW_POM%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.43137258,0.43137258,0.43137258" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/urban/electrical/poles/electric_pole/electric_pole_details_diff.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="concrete" MtlFlags="524416" Shader="Illum" GenMask="2000000001" StringGenMask="%ALLOW_POM%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/concrete/wall/concrete_corner_diff.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

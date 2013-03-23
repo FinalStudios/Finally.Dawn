@@ -1,0 +1,34 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="wood_painted" MtlFlags="524416" Shader="Illum" GenMask="2000080001" StringGenMask="%ALLOW_TESSELATION%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.49803925,0.49803925,0.49803925" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/wood/wood_painted_diff.tif" Filter="7"/>
+    <Texture Map="Specular" File="textures/wood/wood_painted_spec.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal_parts" MtlFlags="524416" Shader="Illum" GenMask="2000082001" StringGenMask="%ALLOW_TESSELATION%DETAIL_BUMP_MAPPING%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.64705884,0.64705884,0.64705884" Specular="0.52344316,0.52344316,0.52344316" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/metal/metal_parts_a_diff.tif"/>
+    <Texture Map="Specular" File="textures/metal/metal_parts_a_diff.dds"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal_a_detailbump_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" DetailBumpTillingU="1" DetailBlendAmount="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" DetailBumpScale="1" DetailBumpTillingV="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal_plate" MtlFlags="524416" Shader="Illum" GenMask="2000082001" StringGenMask="%ALLOW_TESSELATION%DETAIL_BUMP_MAPPING%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.55686277,0.50980395,0.49019611" Specular="0.49411768,0.49411768,0.49411768" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/metal/metal_plate_a_diff.tif"/>
+    <Texture Map="Specular" File="textures/metal/metal_plate_a_spec.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal_scratches_detailbump_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" DetailBumpTillingU="1" DetailBlendAmount="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" DetailBumpScale="1" DetailBumpTillingV="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_wood" MtlFlags="525442" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.45490199,0.3137255,0.15294118" Specular="0.6901961,0.6901961,0.6901961" Emissive="0,0,0" Shininess="6" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_metal" MtlFlags="525442" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.45882356,0.45882356,0.45882356" Specular="0.12156864,0.12156864,0.12156864" Emissive="0,0,0" Shininess="10" Opacity="1" AlphaTest="0.34999999">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

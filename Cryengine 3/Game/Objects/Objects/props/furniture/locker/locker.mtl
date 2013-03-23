@@ -1,0 +1,16 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="locker" MtlFlags="524416" Shader="Illum" GenMask="2000042001" StringGenMask="%ALLOW_TESSELATION%DETAIL_BUMP_MAPPING%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.22713655,0.22713655,0.22713655" Specular="0.29321617,0.29321617,0.37361506" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/furniture/locker/locker_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/furniture/locker/locker_ddn.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal_a_detailbump_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" DetailBumpTillingU="8" DetailBlendAmount="0" FresnelScale="1" FresnelBias="1" DetailBumpScale="0.40000001" DetailBumpTillingV="8" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.36862746,0.34509805,0.32549021" Specular="0.43921572,0.43921572,0.43921572" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

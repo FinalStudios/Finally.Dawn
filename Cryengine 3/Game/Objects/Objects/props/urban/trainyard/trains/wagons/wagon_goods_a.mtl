@@ -1,0 +1,22 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="tarp" MtlFlags="524418" Shader="Illum" GenMask="2000000001" StringGenMask="%ALLOW_POM%VERTCOLORS" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.060031611,0.10114516,0.12474094" Specular="0.0083731171,0.0083731171,0.0083731171" Emissive="0,0,0" Shininess="18" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/plastic/plastic_tarp_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/plastic/plastic_tarp_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="2000000001" StringGenMask="%ALLOW_POM%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.50588238,0.50588238,0.50588238" Specular="0.10196079,0.10196079,0.10196079" Emissive="0,0,0" Shininess="6" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/stacked_logs/stacked_logs_diff.dds" Filter="7"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/stacked_logs/stacked_logs_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

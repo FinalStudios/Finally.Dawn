@@ -1,0 +1,26 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="stones" MtlFlags="524416" Shader="Illum" GenMask="2000040000" StringGenMask="%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.24680044,0.20471011,0.11926401" Specular="0.078431375,0.078431375,0.078431375" Emissive="0,0,0" Shininess="2" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rock/rock_forest_wall_dif.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rock/rock_forest_wall_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="leaves" MtlFlags="524416" Shader="Illum" GenMask="2000080000" StringGenMask="%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.29019609,0.29019609,0.29019609" Specular="1,1,1" Emissive="0,0,0" Shininess="1" Opacity="1" AlphaTest="0.5">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/roads/path_dirt01.dds"/>
+    <Texture Map="Specular" File="textures/terrain/roads/path_dirt01_spec.tif"/>
+    <Texture Map="Bumpmap" File="textures/terrain/roads/path_dirt01_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_stone" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_soil" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_soil" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

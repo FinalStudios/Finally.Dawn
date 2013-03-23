@@ -1,0 +1,63 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="custom" MtlFlags="524416" Shader="Illum" GenMask="2000090001" StringGenMask="%ALLOW_TESSELATION%ENVIRONMENT_MAP%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.94117653,0.94117653,0.94117653" Emissive="0,0,0" Shininess="9" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/urban/roundhouse/storage_pile_custom_diff.tif"/>
+    <Texture Map="Specular" File="objects/props/urban/roundhouse/storage_pile_custom_spec.tif"/>
+    <Texture Map="Environment" File="textures/env_maps/env_plastic.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.079999998" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="board" MtlFlags="524416" Shader="Illum" GenMask="2000040001" StringGenMask="%ALLOW_TESSELATION%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.50196081,0.50196081,0.50196081" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/urban/roundhouse/storage_pile_board_diff.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="tarp" MtlFlags="524418" Shader="Illum" GenMask="2000040001" StringGenMask="%ALLOW_TESSELATION%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.15294118,0.25098041,0.30588236" Specular="0.50980395,0.50980395,0.50980395" Emissive="0,0,0" Shininess="15" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/plastic/plastic_tarp_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/plastic/plastic_tarp_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="roundhouse_wood" MtlFlags="524416" Shader="Illum" GenMask="2000040001" StringGenMask="%ALLOW_TESSELATION%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.40784317,0.40784317,0.40784317" Specular="0.24313727,0.24313727,0.24313727" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/wood/wood_sheets_diff.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal_re-use" MtlFlags="524416" Shader="Illum" GenMask="2000080001" StringGenMask="%ALLOW_TESSELATION%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.50196081,0.50196081,0.50196081" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/metal/metal_door_b_diff.tif"/>
+    <Texture Map="Specular" File="textures/metal/metal_door_b_spec.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="train-re-use" MtlFlags="524416" Shader="Illum" GenMask="2000080001" StringGenMask="%ALLOW_TESSELATION%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.50196081,0.50196081,0.50196081" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/urban/trainyard/trains/wagons/wagon_wooden_diff.dds"/>
+    <Texture Map="Specular" File="objects/props/urban/trainyard/trains/wagons/wagon_wooden_spec.dds"/>
+    <Texture Map="Bumpmap" File="objects/props/urban/trainyard/trains/wagons/wagon_wooden_ddn.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_metal" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10">
+   <Textures />
+  </Material>
+  <Material Name="proxy_wood" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10">
+   <Textures />
+  </Material>
+  <Material Name="proxy_fabric" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10">
+   <Textures />
+  </Material>
+  <Material Name="decals" MtlFlags="524416" Shader="Illum" GenMask="80801" StringGenMask="%ALLOW_TESSELATION%DECAL%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.50196081,0.50196081,0.50196081" Emissive="0,0,0" Opacity="0.99000001">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/urban/roundhouse/storage_pile_decals_diff.tif"/>
+    <Texture Map="Specular" File="objects/props/urban/roundhouse/storage_pile_decals_spec.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>
