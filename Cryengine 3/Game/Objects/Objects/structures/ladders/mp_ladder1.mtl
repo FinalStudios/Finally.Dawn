@@ -1,0 +1,18 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="ladder" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_POM" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.290196,0.290196,0.290196" Specular="0.56049919,0.56049919,0.56049919" Emissive="0,0,0" Shininess="40" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/ladders/rustyladdermetal.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/ladders/rustyladdermetal_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="2.29" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="1" GlossFromDiffuseBrightness="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="collision" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.019607799,0.419608,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="ladderproxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_ladder" MatTemplate="" Diffuse="0.019607799,0.419608,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

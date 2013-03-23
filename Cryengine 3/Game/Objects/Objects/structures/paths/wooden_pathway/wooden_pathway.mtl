@@ -1,0 +1,34 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="2100082200" StringGenMask="%DETAIL_BUMP_MAPPING%DETAIL_TEXTURE_IS_SET%GLOSS_MAP%TESSELLATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.31576276,0.31576276,0.31576276" Specular="0.19607845,0.19607845,0.19607845" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/wood/wood_sheets_moosy_diff.tif"/>
+    <Texture Map="Specular" File="textures/wood/wood_sheets_moosy_spec.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood_vertical_1_ddn.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" DetailBumpTillingU="3" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="1" DetailBumpScale="2" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_wood" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="rock" MtlFlags="524416" Shader="Illum" GenMask="2100000000" StringGenMask="%TESSELLATION%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.21951973,0.21951973,0.21951973" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rock/rock_diff.tif">
+     <TexMod TileU="4" TileV="4"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rock/rock_forest_wall_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="2" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="1" GlossFromDiffuseBrightness="0.60000002" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="dirt" MtlFlags="524416" Shader="Illum" GenMask="2100000000" StringGenMask="%TESSELLATION%VERTCOLORS" SurfaceType="mat_soil" MatTemplate="" Diffuse="0.27157745,0.27157745,0.27157745" Specular="0,0,0" Emissive="0,0,0" Shininess="5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/ground/pebbles_leaves_diff.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_stone" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,26 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="rock" MtlFlags="524416" Shader="Illum" GenMask="2100080000" StringGenMask="%GLOSS_MAP%TESSELLATION%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.48627454,0.48627454,0.48627454" Specular="0.30588201,0.30588201,0.30588201" Emissive="0,0,0" Shininess="2" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rock/rock_forest_a_diff.tif" Filter="7">
+     <TexMod TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/natural/rocks/forest_rock/rock_forest_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rock/rock_forest_a_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wall" MtlFlags="524416" Shader="Illum" GenMask="100042280" StringGenMask="%DETAIL_BUMP_MAPPING%DETAIL_TEXTURE_IS_NORMALMAP%DETAIL_TEXTURE_IS_SET%GLOSS_DIFFUSEALPHA%TESSELLATION" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.21951973,0.21951973,0.21951973" Specular="0.31118053,0.31118053,0.31118053" Emissive="0,0,0" Shininess="40" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/fences/stone_barrier/stone_barrier_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/fences/stone_barrier/stone_barrier_ddn.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/concrete_a_detailbump_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" DetailBumpTillingU="10" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="1" DetailBumpScale="1" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

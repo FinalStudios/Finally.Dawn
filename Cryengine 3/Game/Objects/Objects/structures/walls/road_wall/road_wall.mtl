@@ -1,0 +1,34 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="concrete" MtlFlags="524416" Shader="Illum" GenMask="2100080000" StringGenMask="%GLOSS_MAP%TESSELLATION%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.49411768,0.49411768,0.49411768" Specular="0.19215688,0.19215688,0.19215688" Emissive="0,0,0" Shininess="2" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/concrete/wall/concrete_wall_a_diff.tif"/>
+    <Texture Map="Specular" File="textures/concrete/wall/concrete_wall_a_spec.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rock" MtlFlags="524416" Shader="Illum" GenMask="2100080000" StringGenMask="%GLOSS_MAP%TESSELLATION%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.15728073,0.15728073,0.15728073" Specular="0.31764707,0.31764707,0.31764707" Emissive="0,0,0" Shininess="2" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rock/rock_diff.tif">
+     <TexMod TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/natural/rocks/forest_rock/rock_forest_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rock/rock_forest_a_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="river" MtlFlags="524416" Shader="Illum" GenMask="2100000000" StringGenMask="%TESSELLATION%VERTCOLORS" SurfaceType="mat_water" MatTemplate="" Diffuse="0,0,0" Specular="0.12474094,0.12474094,0.12474094" Emissive="0.50980395,0.50980395,0.50980395" Shininess="160" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/roads/river_foamy.dds">
+     <TexMod TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.1" TexMod_UOscillatorAmplitude="1"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/roads/river_foamy_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,35 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="2000048001" StringGenMask="%ALLOW_TESSELATION%DIRTLAYER%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.38377467,0.38377467,0.38377467" Specular="0.11926401,0.11926401,0.11926401" Emissive="0,0,0" Shininess="30" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/buildings/fishing_houses/fishing_houses_wood_planks.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/structures/buildings/fishing_houses/fishing_houses_wood_planks_ddn.tif"/>
+    <Texture Map="Custom" File="objects/structures/buildings/fishing_houses/fishing_houses_wood_planks_paint.tif" Filter="4"/>
+    <Texture Map="[1] Custom" File="objects/structures/buildings/fishing_houses/fishing_houses_wood_planks_paint.tif"/>
+   </Textures>
+   <PublicParams DirtTint="1,1,1" FresnelPower="5" DirtGlossFactor="1" DirtTiling="1" FresnelScale="1" DirtStrength="1" FresnelBias="1" DirtMapAlphaInfluence="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="roof" MtlFlags="524416" Shader="Illum" GenMask="2000048001" StringGenMask="%ALLOW_TESSELATION%DIRTLAYER%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.26735809,0.26735809,0.26735809" Specular="0.034230206,0.034230206,0.034230206" Emissive="0,0,0" Shininess="35" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/buildings/fishing_houses/fishing_houses_roof.tif" Filter="6"/>
+    <Texture Map="Bumpmap" File="objects/structures/buildings/fishing_houses/fishing_houses_roof_ddn.tif" Filter="4"/>
+    <Texture Map="Custom" File="objects/structures/buildings/fishing_houses/fishing_houses_roof_dirt.tif"/>
+   </Textures>
+   <PublicParams DirtTint="1,1,1" FresnelPower="2.5" DirtGlossFactor="1" DirtTiling="0.5" FresnelScale="2.01" DirtStrength="0.69999999" FresnelBias="1" DirtMapAlphaInfluence="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="0.67843139,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <MaterialRef />
+  <Material Name="beam" MtlFlags="524416" Shader="Illum" GenMask="2000040001" StringGenMask="%ALLOW_TESSELATION%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.21204439,0.21204439,0.21204439" Specular="0.22331043,0.22331043,0.22331043" Emissive="0,0,0" Shininess="25" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/buildings/fishing_houses/fishing_houses_beam.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/buildings/fishing_houses/fishing_houses_beam_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <MaterialRef />
+  <MaterialRef />
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

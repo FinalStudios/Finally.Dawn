@@ -1,0 +1,43 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="pillars" MtlFlags="524416" Shader="Illum" GenMask="2100002280" StringGenMask="%DETAIL_BUMP_MAPPING%DETAIL_TEXTURE_IS_NORMALMAP%DETAIL_TEXTURE_IS_SET%TESSELLATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.43681276,0.43681276,0.43681276" Specular="0.020951131,0.020951131,0.020951131" Emissive="0,0,0" Shininess="2" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/paths/bridges/pillar_wood_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/paths/bridges/pillar_wood_ddn.dds">
+     <TexMod TileV="3"/>
+    </Texture>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood_a_detailbump_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" DetailBumpTillingU="1" FresnelScale="1" GlossFromDiffuseOffset="0" DetailDiffuseScale="0" FresnelBias="1" GlossFromDiffuseAmount="0" DetailBumpScale="3" GlossFromDiffuseBrightness="0.333" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="floor" MtlFlags="524416" Shader="Illum" GenMask="100002280" StringGenMask="%DETAIL_BUMP_MAPPING%DETAIL_TEXTURE_IS_NORMALMAP%DETAIL_TEXTURE_IS_SET%TESSELLATION" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.43681276,0.43681276,0.43681276" Specular="0.01266372,0.01266372,0.01266372" Emissive="0,0,0" Shininess="2" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/paths/bridges/bridge_floor_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/paths/bridges/bridge_floor_ddn.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood_a_detailbump_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" DetailBumpTillingU="4" FresnelScale="1" GlossFromDiffuseOffset="0" DetailDiffuseScale="0" FresnelBias="1" GlossFromDiffuseAmount="0" DetailBumpScale="4" GlossFromDiffuseBrightness="0.333" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="roof" MtlFlags="524416" Shader="Illum" GenMask="2100040020" StringGenMask="%BLENDLAYER%GLOSS_DIFFUSEALPHA%TESSELLATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.43681276,0.43681276,0.43681276" Specular="0.0060405931,0.0060405931,0.0060405931" Emissive="0,0,0" Shininess="2" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/paths/bridges/bridge_roof_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/paths/bridges/bridge_roof_ddn.tif"/>
+    <Texture Map="Opacity" File="objects/structures/paths/bridges/bridge_roof_spec.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_rock/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/brick/brick_moss_ddn.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.75" FresnelPower="4" BlendLayer2Tiling="1" BlendMaskRotation="0" FresnelScale="1" FresnelBias="1" BlendFactor="0.60000002" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="planks" MtlFlags="524416" Shader="Illum" GenMask="2100002280" StringGenMask="%DETAIL_BUMP_MAPPING%DETAIL_TEXTURE_IS_NORMALMAP%DETAIL_TEXTURE_IS_SET%TESSELLATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.43681276,0.43681276,0.43681276" Specular="0.039947167,0.039947167,0.039947167" Emissive="0,0,0" Shininess="3" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/structures/paths/bridges/bridge_planks.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood_a_detailbump_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" DetailBumpTillingU="1" FresnelScale="1" GlossFromDiffuseOffset="0" DetailDiffuseScale="0" FresnelBias="1" GlossFromDiffuseAmount="0" DetailBumpScale="2" GlossFromDiffuseBrightness="0.333" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.23999999">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

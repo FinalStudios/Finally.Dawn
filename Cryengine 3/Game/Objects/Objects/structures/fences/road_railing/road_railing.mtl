@@ -1,0 +1,15 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="road_barrier" MtlFlags="524416" Shader="Illum" GenMask="2100002280" StringGenMask="%DETAIL_BUMP_MAPPING%DETAIL_TEXTURE_IS_NORMALMAP%DETAIL_TEXTURE_IS_SET%TESSELLATION%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.5411765,0.5411765,0.5411765" Specular="1,1,1" Emissive="0,0,0" Shininess="91" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/metal/drain_pipe_diff.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal_scratches_detailbump_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1.08" DetailBumpTillingU="3" FresnelScale="1" GlossFromDiffuseOffset="0" DetailDiffuseScale="0" FresnelBias="1" GlossFromDiffuseAmount="1" DetailBumpScale="0" GlossFromDiffuseBrightness="1.0599999" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

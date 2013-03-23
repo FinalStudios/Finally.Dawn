@@ -1,0 +1,44 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="corugated_metal" MtlFlags="524416" Shader="Illum" GenMask="2100042080" StringGenMask="%DETAIL_BUMP_MAPPING%DETAIL_TEXTURE_IS_SET%GLOSS_DIFFUSEALPHA%TESSELLATION%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.14497213,0.14497213,0.14497213" Specular="0.18014428,0.18014428,0.18014428" Emissive="0,0,0" Shininess="5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/buildings/worker_barracks/corugated_metal_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/buildings/worker_barracks/corugated_metal_a_ddn.tif"/>
+    <Texture Map="Detail" File="objects/structures/buildings/worker_barracks/metal_a_detailbump_ddn.tif">
+     <TexMod TileU="5" TileV="5"/>
+    </Texture>
+   </Textures>
+   <PublicParams FresnelPower="4" DetailBumpTillingU="5" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="1" DetailBumpScale="0.5" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="door" MtlFlags="524416" Shader="Illum" GenMask="2100042080" StringGenMask="%DETAIL_BUMP_MAPPING%DETAIL_TEXTURE_IS_SET%GLOSS_DIFFUSEALPHA%TESSELLATION%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.41568631,0.41568631,0.41568631" Specular="0.34509805,0.39607847,0.3921569" Emissive="0,0,0" Shininess="5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/buildings/worker_barracks/metal_door_a_diff.tif"/>
+    <Texture Map="Detail" File="objects/structures/buildings/worker_barracks/metal_ddn.tif">
+     <TexMod TileU="4" TileV="3"/>
+    </Texture>
+   </Textures>
+   <PublicParams FresnelPower="4" DetailBumpTillingU="4" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="1" DetailBumpScale="0.40000001" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="526496" Shader="Glass" GenMask="90010" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP%GLOSS_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.11657578,0.11657578,0.11657578" Specular="0.43681276,0.43681276,0.43681276" Emissive="0,0,0" Shininess="119.5" Opacity="0.33000001">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/buildings/worker_barracks/glass_clear_diff.tif"/>
+    <Texture Map="Specular" File="objects/structures/buildings/worker_barracks/glass_clear_spec.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/forest/cubemap_forest_tunnel_start_cm.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="1,1,1" FresnelPower="4" FresnelScale="1" FresnelBias="1" TintCloudiness="0" BackLightScale="1" BumpScale="0.1" IndirectColor="0.25084025,0.25084025,0.25084025"/>
+  </Material>
+  <Material Name="physic_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.5">
+   <Textures />
+  </Material>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="2100040000" StringGenMask="%GLOSS_DIFFUSEALPHA%TESSELLATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.19751643,0.19751643,0.19751643" Specular="0.29411766,0.28235295,0.27843139" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/buildings/worker_barracks/wood_tile_diff.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

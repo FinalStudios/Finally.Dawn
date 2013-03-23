@@ -1,0 +1,18 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="copper" MtlFlags="524416" Shader="Illum" GenMask="1A009A200" StringGenMask="%DETAIL_BUMP_MAPPING%DETAIL_TEXTURE_IS_SET%DISPLACEMENT_MAPPING%ENVIRONMENT_MAP%GLOSS_MAP%PN_TESSELLATION%SPECULARPOW_GLOSSALPHA%TESSELLATION" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.38891026,0.38891026,0.38891026" Specular="0.51139784,0.51139784,0.51139784" Emissive="0,0,0" Shininess="157" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/statues/colossal_statue/tx/colossus_diff.tif"/>
+    <Texture Map="Specular" File="objects/structures/statues/colossal_statue/tx/colossus_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/statues/colossal_statue/tx/colossus_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/eye_reflect.dds"/>
+    <Texture Map="Detail" File="objects/structures/statues/colossal_statue/tx/copper_detail.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" TessellationFaceCull="0.75" SpecMapChannelR="0" FresnelPower="4" TessellationFactor="1" DetailBumpTillingU="35" TessellationDispBias="0.5" GlossMapChannelB="0" TessellationHeightScale="1" SpecMapChannelG="0" FresnelScale="1" DetailDiffuseScale="0.33899999" FresnelBias="1" DetailBumpScale="0.1" TessellationFactorMax="64" DetailGlossScale="1" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl2" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

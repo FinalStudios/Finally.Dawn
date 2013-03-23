@@ -1,0 +1,13 @@
+<Objects>
+ <Object Type="Group" Layer="Lighting" LayerGUID="{5F7E85DE-24CE-4FCB-B469-E3413B1040A6}" Id="{63B86831-EDD7-4B18-AC38-7201BCDBB300}" Name="Group2" Pos="544.93604,507.0481,143.49347" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65280" MergeGeom="0" Opened="0">
+  <Objects>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{5F7E85DE-24CE-4FCB-B469-E3413B1040A6}" Id="{6046D9C5-F21A-49AB-9F46-5B3FB2275E31}" Name="AnimObject16" Parent="{63B86831-EDD7-4B18-AC38-7201BCDBB300}" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AnimObject">
+    <Properties ActivatePhysicsDist="50" ActivatePhysicsThreshold="0" bAutoGenAIHidePts="0" bCanShatter="1" bFreezable="1" object_Model="objects/buildings/lighthouse/lighthouse_light.cga" object_ModelFrozen="" bNoFriendlyFire="0" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+     <Animation bAlwaysUpdate="0" Animation="Default" bLoop="1" bPhysicalizeAfterAnimation="0" playerAnimationState="" bPlaying="1" Speed="0.2"/>
+     <Physics bArticulated="0" Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bRigidBody="1"/>
+    </Properties>
+   </Object>
+   <Object Type="Brush" Layer="Lighting" LayerGUID="{5F7E85DE-24CE-4FCB-B469-E3413B1040A6}" Id="{D7AD9098-B31A-4743-9EDA-8D55B1BC0805}" Name="lighthouse1" Parent="{63B86831-EDD7-4B18-AC38-7201BCDBB300}" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/buildings/lighthouse/lighthouse.cgf" NoCollision="0" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+  </Objects>
+ </Object>
+</Objects>

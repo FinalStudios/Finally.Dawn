@@ -1,0 +1,35 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="chainlink" MtlFlags="524416" Shader="Illum" GenMask="2100080000" StringGenMask="%GLOSS_MAP%TESSELLATION%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.40982577,0.40982577,0.40982577" Specular="0.26317474,0.32038158,0.35865393" Emissive="0,0,0" Shininess="80" Opacity="1" AlphaTest="0.2">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/fences/barbwire_fence/chainlink_diff.tif"/>
+    <Texture Map="Specular" File="objects/structures/fences/barbwire_fence/chainlink_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/fences/barbwire_fence/chainlink_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="pole" MtlFlags="524416" Shader="Illum" GenMask="2100042280" StringGenMask="%DETAIL_BUMP_MAPPING%DETAIL_TEXTURE_IS_NORMALMAP%DETAIL_TEXTURE_IS_SET%GLOSS_DIFFUSEALPHA%TESSELLATION%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.21951973,0.21951973,0.21951973" Specular="0.10114516,0.12198571,0.13609855" Emissive="0,0,0" Shininess="80" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/metal/metal_steelbar_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/metal/metal_steelbar_ddn.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" DetailBumpTillingU="5" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="1" DetailBumpScale="0.5" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_fence" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_pole" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="chainlog" MtlFlags="524450" Shader="Illum" GenMask="2100080000" StringGenMask="%GLOSS_MAP%TESSELLATION%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.31118053,0.31118053,0.31118053" Specular="0.31118053,0.31118053,0.31118053" Emissive="0,0,0" Shininess="80" Opacity="1" AlphaTest="0.34999999">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/fences/barbwire_fence/chainlock_diff.tif"/>
+    <Texture Map="Specular" File="objects/structures/fences/barbwire_fence/chainlock_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/fences/barbwire_fence/chainlock_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>
