@@ -1,0 +1,8 @@
+<Material MtlFlags="524288" Shader="Terrain.Layer" GenMask="200000000" StringGenMask="%TEMP_TERRAIN" SurfaceType="mat_grass" MatTemplate="" Diffuse="1,1,1" Emissive="0,0,0" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/final studios/test/grassdead/grassdead_diff.dds">
+   <TexMod TileU="0.5" TileV="0.5"/>
+  </Texture>
+ </Textures>
+ <PublicParams FresnelPower="4" DetailTextureStrength="0.85900003" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>
