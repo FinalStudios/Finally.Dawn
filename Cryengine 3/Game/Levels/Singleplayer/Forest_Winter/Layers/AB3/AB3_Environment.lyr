@@ -1,0 +1,12 @@
+<ObjectLayer>
+ <Layer Name="AB3_Environment" GUID="{5420E187-1B53-4751-B907-6A0F6752F18B}" FullName="AB3/AB3_Environment" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="0" Color="8772314" ParentGUID="{66B3B212-ED45-4A38-8A52-0DFC2D1DF46F}">
+  <LayerObjects>
+   <Object Type="Entity" Layer="AB3_Environment" LayerGUID="{5420E187-1B53-4751-B907-6A0F6752F18B}" Id="{DE69DA1C-9F4F-44FA-A644-F5C3D6C09B72}" Name="AB3_WindArea_Ocean" Pos="381.28998,529.3717,161.98721" FloorNumber="-1" Rotate="0.99144489,0,0,-0.13052619" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="WindArea">
+    <Properties bActive="1" AirDensity="0" AirResistance="0" bEllipsoidal="0" FalloffInner="1" Speed="1">
+     <Dir x="2" y="2" z="0.25"/>
+     <Size x="148.9" y="153.9" z="50.2"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

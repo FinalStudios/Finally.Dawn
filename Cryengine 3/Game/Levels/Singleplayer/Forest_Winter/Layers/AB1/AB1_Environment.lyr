@@ -1,0 +1,67 @@
+<ObjectLayer>
+ <Layer Name="AB1_Environment" GUID="{8DF9AFD4-95B0-4B65-B222-18BD4DA78230}" FullName="AB1/AB1_Environment" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="0" Color="8902791" ParentGUID="{0199749C-0578-445C-ABD7-CE0AE05C4169}">
+  <LayerObjects>
+   <Object Type="Entity" Layer="AB1_Environment" LayerGUID="{8DF9AFD4-95B0-4B65-B222-18BD4DA78230}" Id="{26D76F3D-439E-4B16-A962-5665745661F1}" Name="AB1_WindArea_Ruins_01" Pos="855.16064,341.03351,173.11372" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="WindArea">
+    <Properties bActive="1" AirDensity="0" AirResistance="0" bEllipsoidal="0" FalloffInner="1" Speed="1">
+     <Dir x="2" y="0" z="0"/>
+     <Size x="14" y="33.9" z="9.4"/>
+    </Properties>
+   </Object>
+   <Object Type="Brush" Layer="AB1_Environment" LayerGUID="{8DF9AFD4-95B0-4B65-B222-18BD4DA78230}" Id="{84A0203F-22CF-4766-BE21-0607BD3909BE}" Name="wood_table1" Pos="866.18439,327.48175,174.57967" FloorNumber="-1" Rotate="0.81411552,0,0,-0.58070296" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/structures/buildings/fishing_houses/wood_table.cgf" NoCollision="0" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Bending="0" RndFlags="536870920"/>
+   <Object Type="Entity" Layer="AB1_Environment" LayerGUID="{8DF9AFD4-95B0-4B65-B222-18BD4DA78230}" Id="{6FEF674B-2FB6-413F-94C9-FAFF93C5D312}" Name="AB2_WindArea_Cave_01" Pos="712.56592,376.94431,171.4597" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="WindArea">
+    <Properties bActive="1" AirDensity="0" AirResistance="0" bEllipsoidal="0" FalloffInner="1" Speed="1">
+     <Dir x="2" y="1" z="0"/>
+     <Size x="7.3" y="9.6" z="8.7"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB1_Environment" LayerGUID="{8DF9AFD4-95B0-4B65-B222-18BD4DA78230}" Id="{AFFE4351-4A8E-4122-A692-258A1C1C894F}" Name="AB3_WindArea_Ruins" Pos="582.07581,448.14954,158.48872" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="WindArea">
+    <Properties bActive="1" AirDensity="0" AirResistance="0" bEllipsoidal="0" FalloffInner="4" Speed="1">
+     <Dir x="-4" y="2" z="-0.25"/>
+     <Size x="7.9" y="9" z="7.7"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB1_Environment" LayerGUID="{8DF9AFD4-95B0-4B65-B222-18BD4DA78230}" Id="{B1C4036A-A0DA-4167-A447-DD5AD36B05AB}" Name="AB2_WindArea_WaterFall_03" Pos="593.60846,405.83148,154.52582" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="WindArea">
+    <Properties bActive="1" AirDensity="0" AirResistance="0" bEllipsoidal="0" FalloffInner="4" Speed="1">
+     <Dir x="2" y="4" z="-0.25"/>
+     <Size x="10.3" y="14.4" z="12.1"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB1_Environment" LayerGUID="{8DF9AFD4-95B0-4B65-B222-18BD4DA78230}" Id="{099FA26A-3BDF-4795-994A-89135A843FB6}" Name="AB2_WindArea_WaterFall_01" Pos="627.0639,348.8309,162.53806" FloorNumber="-1" Rotate="0.89493436,0,0,-0.44619781" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="WindArea">
+    <Properties bActive="1" AirDensity="0" AirResistance="0" bEllipsoidal="0" FalloffInner="1" Speed="1">
+     <Dir x="-2" y="2" z="0"/>
+     <Size x="10" y="4" z="10"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB1_Environment" LayerGUID="{8DF9AFD4-95B0-4B65-B222-18BD4DA78230}" Id="{EE480F7B-5A11-4BDA-8937-91049784D7AA}" Name="AB2_WindArea_Cave_03" Pos="601.37555,333.50482,172.13197" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="WindArea">
+    <Properties bActive="1" AirDensity="0" AirResistance="0" bEllipsoidal="0" FalloffInner="10" Speed="1">
+     <Dir x="2" y="0" z="0"/>
+     <Size x="17" y="13.8" z="10.7"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB1_Environment" LayerGUID="{8DF9AFD4-95B0-4B65-B222-18BD4DA78230}" Id="{E744367B-E8BF-4DFB-866D-C230D1FB3D34}" Name="AB2_WindArea_WaterFall_Big" Pos="698.34845,304.2742,181.92175" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="WindArea">
+    <Properties bActive="1" AirDensity="0" AirResistance="0" bEllipsoidal="0" FalloffInner="1" Speed="1">
+     <Dir x="2" y="4" z="0"/>
+     <Size x="15.9" y="14" z="30.4"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB1_Environment" LayerGUID="{8DF9AFD4-95B0-4B65-B222-18BD4DA78230}" Id="{8B5B8993-DD4D-4D0E-B60B-911D321A8683}" Name="AB2_WindArea_Cave_02" Pos="643.73059,387.24881,173.90186" FloorNumber="-1" Rotate="0.97814757,0,0,0.2079117" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="WindArea">
+    <Properties bActive="1" AirDensity="0" AirResistance="0" bEllipsoidal="0" FalloffInner="4" Speed="1">
+     <Dir x="2" y="0" z="0"/>
+     <Size x="8.7" y="9.8" z="7.8"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB1_Environment" LayerGUID="{8DF9AFD4-95B0-4B65-B222-18BD4DA78230}" Id="{C88365BF-37B2-4A5C-8DA1-7329CFEAD406}" Name="AB3_WindArea_LightHouse" Pos="391.78012,399.50397,166.90288" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="WindArea">
+    <Properties bActive="1" AirDensity="0" AirResistance="0" bEllipsoidal="0" FalloffInner="4" Speed="1">
+     <Dir x="2" y="4" z="-0.25"/>
+     <Size x="10" y="10" z="10"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB1_Environment" LayerGUID="{8DF9AFD4-95B0-4B65-B222-18BD4DA78230}" Id="{FF5404CF-0224-4939-B0BF-9F8C3741CAC1}" Name="AB2_WindArea_WaterFall_02" Pos="609.76093,358.72565,161.89183" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="WindArea">
+    <Properties bActive="1" AirDensity="0" AirResistance="0" bEllipsoidal="0" FalloffInner="1" Speed="1">
+     <Dir x="-4" y="-1" z="-0.5"/>
+     <Size x="15.4" y="4.5" z="6.6"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

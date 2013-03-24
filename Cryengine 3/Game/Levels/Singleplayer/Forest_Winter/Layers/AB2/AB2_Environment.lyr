@@ -1,0 +1,88 @@
+<ObjectLayer>
+ <Layer Name="AB2_Environment" GUID="{A354952E-8DB1-46FF-AB49-2DD316AE21D8}" FullName="AB2/AB2_Environment" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="1" IsDefaultColor="0" Color="14275974" ParentGUID="{0A8FBF02-DF2A-40FE-83B5-E7F03AF08DA9}">
+  <LayerObjects>
+   <Object Type="GeomEntity" Layer="AB2_Environment" LayerGUID="{A354952E-8DB1-46FF-AB49-2DD316AE21D8}" Id="{2C2F8809-DA6A-4666-BDEF-D289D9EAA21E}" Name="loose_ice_shelf_13" Pos="581.16486,409.18439,142.21553" FloorNumber="-1" Rotate="-0.30901706,0,0,0.95105648" Scale="2.5299995,2.5299995,2.53" ColorRGB="65535" MatLayersMask="0" Geometry="objects/natural/water/ice_shelf/loose_ice_shelf.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+      <vOffset x="0" y="0" z="0"/>
+     </Interest>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="AB2_Environment" LayerGUID="{A354952E-8DB1-46FF-AB49-2DD316AE21D8}" Id="{3AC11712-97AB-4922-B273-B7EFDCB54535}" Name="loose_ice_shelf7" Pos="527.77057,484.16623,142.12039" FloorNumber="-1" Rotate="0.73135376,-0,0,-0.68199831" Scale="1.6600001,1.6600001,1.66" ColorRGB="65535" MatLayersMask="0" Geometry="objects/natural/water/ice_shelf/loose_ice_shelf.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+      <vOffset x="0" y="0" z="0"/>
+     </Interest>
+    </Properties>
+   </Object>
+   <Object Type="Decal" Layer="AB2_Environment" LayerGUID="{A354952E-8DB1-46FF-AB49-2DD316AE21D8}" Id="{D7A4D026-3770-40E6-9138-524B27D321D5}" Name="Decal_4116" Pos="590.66327,374.88831,152.69017" FloorNumber="-1" Rotate="1,0,0,0" Scale="11.5,11.5,11.5" ColorRGB="16744319" Material="Materials/decals/terrain/dirt_on_road_gray" ProjectionType="0" Deferred="1" ViewDistRatio="100" SortPriority="16" ProjectionDepth="0.192157" SingleSided="0" RndFlags="69632"/>
+   <Object Type="GeomEntity" Layer="AB2_Environment" LayerGUID="{A354952E-8DB1-46FF-AB49-2DD316AE21D8}" Id="{F8CF2D2A-0B48-43AA-88F2-6C0F482168F3}" Name="ice_shelf31" Pos="865.26831,348.435,166.27" FloorNumber="-1" Rotate="0.99323142,0.026008675,-0.0029633143,-0.11316442" Scale="4,4,4" ColorRGB="65535" MatLayersMask="0" Geometry="objects/natural/water/ice_shelf/ice_shelf.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+      <vOffset x="0" y="0" z="0"/>
+     </Interest>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="AB2_Environment" LayerGUID="{A354952E-8DB1-46FF-AB49-2DD316AE21D8}" Id="{B1CA8D47-D88D-4F5E-84F8-ED789EC104C2}" Name="loose_ice_shelf_20" Pos="554.59399,456.80954,142.12039" FloorNumber="-1" Rotate="0.73135376,-0,0,-0.68199831" Scale="1.6600001,1.6600001,1.66" ColorRGB="65535" MatLayersMask="0" Geometry="objects/natural/water/ice_shelf/loose_ice_shelf.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+      <vOffset x="0" y="0" z="0"/>
+     </Interest>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="AB2_Environment" LayerGUID="{A354952E-8DB1-46FF-AB49-2DD316AE21D8}" Id="{54643E4F-D395-4135-A0DF-63DE039CC2FA}" Name="loose_ice_shelf_8" Pos="537.24841,484.29672,142.12039" FloorNumber="-1" Rotate="-0.10452855,0,0,0.99452192" Scale="1.9799993,1.9799993,1.98" ColorRGB="65535" MatLayersMask="0" Geometry="objects/natural/water/ice_shelf/loose_ice_shelf.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+      <vOffset x="0" y="0" z="0"/>
+     </Interest>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="AB2_Environment" LayerGUID="{A354952E-8DB1-46FF-AB49-2DD316AE21D8}" Id="{CC358775-4243-4183-BD35-1C166A61909A}" Name="loose_ice_shelf_24" Pos="486.23196,523.33496,142.12038" FloorNumber="-1" Rotate="0.73135376,-0,0,-0.68199831" Scale="3.4300003,3.4300003,3.4299998" ColorRGB="65535" MatLayersMask="0" Geometry="objects/natural/water/ice_shelf/loose_ice_shelf.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+      <vOffset x="0" y="0" z="0"/>
+     </Interest>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="AB2_Environment" LayerGUID="{A354952E-8DB1-46FF-AB49-2DD316AE21D8}" Id="{648D7BB3-6978-4574-9519-557D095BE451}" Name="loose_ice_shelf11" Pos="591.92285,400.44867,142.15515" FloorNumber="-1" Rotate="-0.30901706,0,0,0.95105648" Scale="2.5299995,2.5299995,2.53" ColorRGB="65535" MatLayersMask="0" Geometry="objects/natural/water/ice_shelf/loose_ice_shelf.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+      <vOffset x="0" y="0" z="0"/>
+     </Interest>
+    </Properties>
+   </Object>
+   <Object Type="Decal" Layer="AB2_Environment" LayerGUID="{A354952E-8DB1-46FF-AB49-2DD316AE21D8}" Id="{9BCE35BA-F8FA-448B-923D-3A8E463E41C6}" Name="Decal_4115" Pos="751.35132,335.6691,163.1691" FloorNumber="-1" Rotate="1,0,0,0" Scale="122.22337,30.555843,30.555843" ColorRGB="16744319" Material="Materials/decals/terrain/forest_water_decal" ProjectionType="0" Deferred="1" ViewDistRatio="100" SortPriority="16" ProjectionDepth="0.156863" SingleSided="0" RndFlags="69632"/>
+   <Object Type="GeomEntity" Layer="AB2_Environment" LayerGUID="{A354952E-8DB1-46FF-AB49-2DD316AE21D8}" Id="{DA7EC2C1-D25C-440E-BF63-1E792489DB35}" Name="loose_ice_shelf_12" Pos="596.84528,413.53101,142.21553" FloorNumber="-1" Rotate="-0.30901706,0,0,0.95105648" Scale="2.5299995,2.5299995,2.53" ColorRGB="65535" MatLayersMask="0" Geometry="objects/natural/water/ice_shelf/loose_ice_shelf.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+      <vOffset x="0" y="0" z="0"/>
+     </Interest>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="AB2_Environment" LayerGUID="{A354952E-8DB1-46FF-AB49-2DD316AE21D8}" Id="{71DA4EDA-945F-49E7-A7CF-42C0DBC155EE}" Name="loose_ice_shelf_21" Pos="548.87085,448.72333,142.12039" FloorNumber="-1" Rotate="0.73132586,0.0063821841,-0.0059514828,-0.68197238" Scale="1.6600001,1.6600001,1.66" ColorRGB="65535" MatLayersMask="0" Geometry="objects/natural/water/ice_shelf/loose_ice_shelf.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+      <vOffset x="0" y="0" z="0"/>
+     </Interest>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="AB2_Environment" LayerGUID="{A354952E-8DB1-46FF-AB49-2DD316AE21D8}" Id="{5964F8E7-BBD8-42BC-BD29-5642A508C2B3}" Name="ice_shelf_30" Pos="871.21747,345.81274,166.1219" FloorNumber="-1" Rotate="0.75470954,0,0,0.65605909" Scale="1.2500001,1.2500001,1.25" ColorRGB="65535" MatLayersMask="0" Geometry="objects/natural/water/ice_shelf/ice_shelf.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" GlobalInSegmentedWorld="0" HiddenInGame="0" RecvWind="0" Bending="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+      <vOffset x="0" y="0" z="0"/>
+     </Interest>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>
