@@ -1,0 +1,25 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="rock" MtlFlags="524416" Shader="Illum" GenMask="2000000000" StringGenMask="%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.43137258,0.43137258,0.43137258" Specular="0.019215688,0.019215688,0.019215688" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/cliff_rocks/con_cliff_rock_d_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/cliff_rocks/con_cliff_rock_d_ddn.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/cliff_rocks/con_cliff_rock_d_detail.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="plants" MtlFlags="524418" Shader="Illum" GenMask="40000" StringGenMask="%GLOSS_DIFFUSEALPHA" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="0.49411768,0.49411768,0.49411768" Specular="0.27058825,0.27058825,0.27058825" Emissive="0,0,0" Shininess="13.6" Opacity="1" AlphaTest="0.5">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/decals/roots_on_cliff.tif"/>
+    <Texture Map="Bumpmap" File="textures/terrain/decals/roots_on_cliff_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

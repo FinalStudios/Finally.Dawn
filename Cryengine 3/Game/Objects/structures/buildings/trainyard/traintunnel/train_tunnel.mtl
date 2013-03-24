@@ -1,0 +1,36 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="concrete_dirty" MtlFlags="524416" Shader="Illum" GenMask="2000080001" StringGenMask="%ALLOW_POM%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.34117648,0.30588236,0.28235295" Specular="0.054901965,0.054901965,0.054901965" Emissive="0,0,0" Shininess="3" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/brick/brick_raw_diff.tif"/>
+    <Texture Map="Specular" File="textures/brick/brick_raw_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/brick/brick_raw_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="concrete_floor" MtlFlags="524416" Shader="Illum" GenMask="2000040001" StringGenMask="%ALLOW_POM%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.44313729,0.43529415,0.3921569" Specular="0.16862746,0.16862746,0.16862746" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/concrete/ground/sidewalk_stones_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/concrete/ground/sidewalk_stones_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="physic_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="ground" MtlFlags="524416" Shader="Illum" GenMask="2000000001" StringGenMask="%ALLOW_POM%VERTCOLORS" SurfaceType="mat_soil" MatTemplate="" Diffuse="0.35294119,0.35294119,0.35294119" Specular="0,0,0" Emissive="0,0,0" Shininess="5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/ground/pebbles_leaves_diff.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_railing" MtlFlags="524418" Shader="Illum" GenMask="2000080001" StringGenMask="%ALLOW_POM%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.40000004,0.40000004,0.40000004" Specular="0,0,0" Emissive="0,0,0" Shininess="1" Opacity="1" AlphaTest="0.5">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/vegetation/meadow/meadow_grass_diff.tif"/>
+    <Texture Map="Specular" File="objects/natural/vegetation/meadow/meadow_grass_diff.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

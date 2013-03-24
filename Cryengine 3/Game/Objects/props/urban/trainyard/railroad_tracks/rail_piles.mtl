@@ -1,0 +1,28 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="rail" MtlFlags="524416" Shader="Illum" GenMask="2000080001" StringGenMask="%ALLOW_POM%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.56470591,0.56470591,0.56470591" Specular="0.56470591,0.56470591,0.56470591" Emissive="0,0,0" Shininess="4.5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/urban/trainyard/railroad_tracks/railroad_track_diff.tif"/>
+    <Texture Map="Specular" File="objects/props/urban/trainyard/railroad_tracks/railroad_track_spec.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="2000080001" StringGenMask="%ALLOW_POM%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.38039219,0.38039219,0.38039219" Specular="0.14313726,0.15588236,0.077450983" Emissive="0,0,0" Shininess="15" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/wood/wood_sheets_moosy_diff.tif"/>
+    <Texture Map="Specular" File="textures/wood/wood_sheets_moosy_spec.tif"/>
+    <Texture Map="Detail" File="textures/wood/wood_tile_diff.tif">
+     <TexMod TileU="5" TileV="5"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_wood" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.49411768,0.49411768,0.49411768" Specular="0.2392157,0.2392157,0.2392157" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_metal" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.49411768,0.49411768,0.49411768" Specular="0.2392157,0.2392157,0.2392157" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

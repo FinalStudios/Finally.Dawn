@@ -1,0 +1,21 @@
+#filepath = Animations\1st_person\NW
+$TracksDatabase						=	animations\1st_person\nw\nw_arms_fp.dba
+
+//Minimum Required Animations
+nw_arms_bindingpose					= bindingpose.caf
+nw_arms_select							=	nw_arms_select.caf
+nw_arms_deselect						=	nw_arms_deselect.caf
+nw_arms_idle_right_01							=	nw_arms_idle.caf
+nw_arms_push							=	nw_arms_push.caf
+nw_remove_arm_left						=	nw_remove_arm_left.caf
+nw_arms_idle                  =	nw_arms_idle.caf
+nw_arms_idle_relaxed					=	nw_arms_idle_relaxed.caf
+nw_swim_forward								=	nw_swim_forward.caf
+nw_arms_idle_right_akimbo_01								= idle_right_akimbo_01.caf
+idle_right_akimbo_01 = idle_right_akimbo.caf
+nw_arms_replace_akimbo				=	idle_replace_left_akimbo.caf
+nw_arms_remove_akimbo					=	idle_remove_left_akimbo.caf
+
+//DEBUG
+ROM_test								=	ROM_test.caf
+

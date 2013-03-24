@@ -1,0 +1,26 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="dif" MtlFlags="524416" Shader="Illum" GenMask="80001" StringGenMask="%ALLOW_POM%GLOSS_MAP" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.21951973,0.21951973,0.20835964" Specular="0.33922336,0.33922336,0.33922336" Emissive="0,0,0" Shininess="35" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/mine/mines_diff.tif"/>
+    <Texture Map="Specular" File="objects/props/mine/mines_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/mine/mines_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_POM" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal" MtlFlags="524416" Shader="Illum" GenMask="82001" StringGenMask="%ALLOW_POM%DETAIL_BUMP_MAPPING%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.21951973,0.21951973,0.20835964" Specular="0.33922336,0.33922336,0.33922336" Emissive="0,0,0" Shininess="100" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/mine/mines_diff.tif"/>
+    <Texture Map="Specular" File="objects/props/mine/mines_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/mine/mines_ddn.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal_scratches_detailbump_ddn.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" DetailBumpTillingU="20" DetailBlendAmount="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" DetailBumpScale="0.2" DetailBumpTillingV="20" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,14 +1,14 @@
-Logged at Monday, March 18, 2013 12:43:37
+Logged at Sunday, March 24, 2013 16:46:25
 FileVersion: 3.4.4.6289
 ProductVersion: 3.4.4.6289
 LogFile: Editor.log
-Executable: G:\Games\CryENGINE_PC_v3_4_4_6289_freesdk\Bin32\Editor.exe
+Executable: C:\Users\Sepp\Game Development\FINALLY DAWN\Finally.Dawn\Cryengine 3\Bin32\Editor.exe
 
 Exception Code: FATAL_ERROR
 Exception Addr: 
 Exception Module: 
 Exception Description: FATAL_ERROR, 
-Memory in use: 633.4MB
+Memory in use: 479.4MB
 Debug Status: 
 Out of Memory: 1
 

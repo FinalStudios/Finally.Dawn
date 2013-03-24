@@ -1,0 +1,6 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="2000040001" StringGenMask="%ALLOW_TESSELATION%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.22331043,0.22331043,0.22331043" Specular="0.15686275,0.15686275,0.15686275" Emissive="0,0,0" Shininess="50.700001" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/props/industrial/ceiling_elements/metalstripes_a_diff.dds"/>
+ </Textures>
+ <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

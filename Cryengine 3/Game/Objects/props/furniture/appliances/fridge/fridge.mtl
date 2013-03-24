@@ -1,0 +1,16 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="plastic" MtlFlags="524416" Shader="Illum" GenMask="2100042280" StringGenMask="%DETAIL_BUMP_MAPPING%DETAIL_TEXTURE_IS_NORMALMAP%DETAIL_TEXTURE_IS_SET%GLOSS_DIFFUSEALPHA%TESSELLATION%VERTCOLORS" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.40982577,0.40982577,0.40982577" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="120" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/furniture/appliances/fridge/fridge_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/furniture/appliances/fridge/fridge_ddn.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/plastic_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" DetailBumpTillingU="10" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="1" DetailBumpScale="0.2" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

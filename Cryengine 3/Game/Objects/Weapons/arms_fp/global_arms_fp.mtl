@@ -1,0 +1,39 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="arms" MtlFlags="524452" Shader="HumanSkin" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.096266121,0.09387587,0.042987008" Specular="0.36255062,0.36255062,0.36255062" Emissive="0,0,0" Shininess="6" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/arms_fp/hand.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/characters/neutral_male/body_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/defaults/dither_pattern.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="SubSurface" File="objects/characters/neutral_male/arm_sss.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SubsurfaceStrenght="1" RimStrenght="0.30000001" SpecularStrenght="0.023" DiffusionAmount="0.60000002" RimPow="1" Melanin="0.77100003" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="jacket" MtlFlags="524448" Shader="Illum" GenMask="52001" StringGenMask="%ALLOW_POM%DETAIL_BUMP_MAPPING%ENVIRONMENT_MAP%GLOSS_DIFFUSEALPHA" SurfaceType="" MatTemplate="" Diffuse="0.1036341,0.1036341,0.1036341" Specular="0.018554857,0.018554857,0.018554857" Emissive="0,0,0" Shininess="4.5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/neutral_male/jacket_diff.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/characters/neutral_male/jacket_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/characters/neutral_male/beach_blur.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/detail/detail_concrete.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams EnvMapAmount="0" FresnelScale="0" FresnelBias="0" AmbientMultiplier="1" DetailBumpTillingU="10" DetailBumpTillingV="10" DetailBumpScale="0.88" DetailBlendAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

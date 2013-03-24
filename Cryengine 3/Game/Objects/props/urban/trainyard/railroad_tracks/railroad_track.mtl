@@ -1,0 +1,19 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="concreteground" MtlFlags="524416" Shader="Illum" GenMask="2000080001" StringGenMask="%ALLOW_POM%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.34886485,0.34886485,0.34886485" Specular="0.09387587,0.09387587,0.09387587" Emissive="0,0,0" Shininess="4.5" Opacity="1" AlphaTest="0.90100002">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/urban/trainyard/railroad_tracks/railroad_track_diff.tif"/>
+    <Texture Map="Specular" File="objects/props/urban/trainyard/railroad_tracks/railroad_track_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/urban/trainyard/railroad_tracks/railroad_track_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="physic_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.49411768,0.49411768,0.49411768" Specular="0.2392157,0.2392157,0.2392157" Emissive="0,0,0" Shininess="10" Opacity="1" AlphaTest="0.02">
+   <Textures />
+  </Material>
+  <Material Name="proxy_metal" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.49411768,0.49411768,0.49411768" Specular="0.2392157,0.2392157,0.2392157" Emissive="0,0,0" Shininess="10" Opacity="1" AlphaTest="0.02">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

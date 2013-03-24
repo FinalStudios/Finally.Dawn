@@ -1,0 +1,57 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="Roof" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.70116949,0.70116949,0.70116949" Specular="0.54179835,0.54179835,0.54179835" Emissive="0,0,0" Shininess="42" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/structures/buildings/hangar/Textures/Roof_Diffuse.tif"/>
+    <Texture Map="Specular" File="Objects/structures/buildings/hangar/Textures/Roof_Spec.tif"/>
+    <Texture Map="Bumpmap" File="Objects/structures/buildings/hangar/Textures/Roof_Normal.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.42050794,0.42050794,0.42050794" Specular="0.4784314,0.4784314,0.4784314" Emissive="0,0,0" Shininess="135" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/structures/buildings/hangar/Textures/Frame_Diffuse.tif"/>
+    <Texture Map="Specular" File="Objects/structures/buildings/hangar/Textures/Frame_Spec.tif"/>
+    <Texture Map="Bumpmap" File="Objects/structures/buildings/hangar/Textures/Frame_Normal.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Left_Wall" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.39929333,0.39929333,0.39929333" Specular="0.66611695,0.66611695,0.66611695" Emissive="0,0,0" Shininess="104" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/structures/buildings/hangar/Textures/LeftWall_Diffuse.tif"/>
+    <Texture Map="Specular" File="Objects/structures/buildings/hangar/Textures/LeftWall_Spec.tif"/>
+    <Texture Map="Bumpmap" File="Objects/structures/buildings/hangar/Textures/LeftWall_Normal.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Right_Wall" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.61868572,0.61868572,0.61868572" Specular="0.18823531,0.18823531,0.18823531" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/structures/buildings/hangar/Textures/RightWall_Diffuse.tif"/>
+    <Texture Map="Specular" File="Objects/structures/buildings/hangar/Textures/RightWall_Spec.tif"/>
+    <Texture Map="Bumpmap" File="Objects/structures/buildings/hangar/Textures/RightWall_Normal.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="FrontRear_Wall" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.52952325,0.52952325,0.52952325" Specular="0.32972905,0.32972905,0.32972905" Emissive="0,0,0" Shininess="123" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/structures/buildings/hangar/Textures/TopWall_Diffuse.tif"/>
+    <Texture Map="Specular" File="Objects/structures/buildings/hangar/Textures/TopWall_Spec.tif"/>
+    <Texture Map="Bumpmap" File="Objects/structures/buildings/hangar/Textures/TopWall_Normal.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Side_Wall" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.61206561,0.61206561,0.61206561" Specular="0.17343903,0.17343903,0.17343903" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/structures/buildings/hangar/Textures/UpperWall_Diffuse.tif"/>
+    <Texture Map="Specular" File="Objects/structures/buildings/hangar/Textures/UpperWall_Spec.tif"/>
+    <Texture Map="Bumpmap" File="Objects/structures/buildings/hangar/Textures/UpperWall_Normal.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="524416" Shader="Illum" GenMask="100000000" StringGenMask="%TESSELLATION" SurfaceType="" MatTemplate="" Diffuse="1,0.3137255,0.3137255" Specular="0.24313727,0.24313727,0.24313727" Emissive="0,0,0" Shininess="1" Opacity="0.5">
+   <Textures />
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

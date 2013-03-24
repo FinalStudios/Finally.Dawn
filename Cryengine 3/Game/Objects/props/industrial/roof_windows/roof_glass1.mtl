@@ -1,0 +1,20 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="wire_glass" MtlFlags="526498" Shader="Glass" GenMask="1030010010" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP%REALTIME_MIRROR_REFLECTION%REFRACTION_MAP%TWO_SIDED_SORTING" SurfaceType="mat_glass" MatTemplate="" Diffuse="0.28445208,0.28445208,0.28445208" Specular="0.36360392,0.36360392,0.36360392" Emissive="0,0,0" Shininess="29" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/glass/wire_glass.tif"/>
+    <Texture Map="Specular" File="textures/glass/wire_glass_spec.tif"/>
+    <Texture Map="Bumpmap" File="textures/glass/wire_glass_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/forest/cubemap_cabin_interior_environment_probe_cm.dds"/>
+   </Textures>
+   <PublicParams FilterColor="1,1,1" FresnelPower="0.192" TintAmount="1" RefrDepthScale="0.034000002" FresnelScale="2.52" RefrBumpScale="0.505" FresnelBias="1" BackLightScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Steel" MtlFlags="524416" Shader="Illum" GenMask="40001" StringGenMask="%ALLOW_TESSELATION%GLOSS_DIFFUSEALPHA" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.039947167,0.039947167,0.039947167" Specular="0.13320851,0.13320851,0.13320851" Emissive="0,0,0" Shininess="31" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/steel_beams/tex/rusted_steel_02.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="0.29899999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

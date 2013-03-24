@@ -1,0 +1,14 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="2000040101" StringGenMask="%ALLOW_TESSELATION%BLENDLAYER%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.36859095,0.42590532,0.56049919" Specular="0.17013837,0.17013837,0.17013837" Emissive="0,0,0" Shininess="61" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/props/misc/kowloon_road/kowloon_road_clean_diff.tif">
+   <TexMod TileU="0.15000001" TileV="0.15000001"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="objects/props/misc/kowloon_road/kowloon_road_dirty_ddn.dds">
+   <TexMod TileU="0.15000001" TileV="0.15000001"/>
+  </Texture>
+  <Texture Map="Opacity" File="objects/props/misc/kowloon_road/kowloon_road_msk.dds"/>
+  <Texture Map="Custom" File="objects/props/misc/kowloon_road/kowloon_road_clean_diff.tif"/>
+  <Texture Map="[1] Custom" File="objects/props/misc/kowloon_road/kowloon_road_dirty_ddn.tif"/>
+ </Textures>
+ <PublicParams BlendFalloff="4" FresnelPower="3" BlendLayer2Tiling="1" BlendMaskRotation="0" FresnelScale="1" FresnelBias="0" BlendFactor="0.2" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,20 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="metal" MtlFlags="524416" Shader="Illum" GenMask="2000040001" StringGenMask="%ALLOW_TESSELATION%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.51139784,0.51139784,0.51139784" Specular="0.51139784,0.51139784,0.51139784" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/metal/metal_steelbar_diff.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="details" MtlFlags="524416" Shader="Illum" GenMask="2000040001" StringGenMask="%ALLOW_TESSELATION%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="1.2470587,1.2470587,1.2470587" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/urban/electrical/panels/panels_diff.tif" Filter="7"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

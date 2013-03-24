@@ -1,0 +1,25 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="2000082001" StringGenMask="%ALLOW_POM%DETAIL_BUMP_MAPPING%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.11926401,0.096266121,0.096266121" Specular="0.15415226,0.15415226,0.15415226" Emissive="0,0,0" Shininess="10" Opacity="1" AlphaTest="0.02">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/wood/wood_sheets_moosy_diff.tif"/>
+    <Texture Map="Specular" File="textures/wood/wood_sheets_moosy_spec.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood_a_detailbump_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" DetailBumpTillingU="4" DetailBlendAmount="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" DetailBumpScale="1" DetailBumpTillingV="4" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_wood" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.49411768,0.49411768,0.49411768" Specular="0.2392157,0.2392157,0.2392157" Emissive="0,0,0" Shininess="10" Opacity="1" AlphaTest="0.02">
+   <Textures />
+  </Material>
+  <Material Name="conrete" MtlFlags="524416" Shader="Illum" GenMask="2000040001" StringGenMask="%ALLOW_POM%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.52156866,0.49019611,0.47058827" Specular="0.87450987,0.87450987,0.87450987" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/concrete/ground/asphalt_a_diff.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_concrete" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.49411768,0.49411768,0.49411768" Specular="0.2392157,0.2392157,0.2392157" Emissive="0,0,0" Shininess="10" Opacity="1" AlphaTest="0.02">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

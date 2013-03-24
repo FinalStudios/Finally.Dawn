@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="Animations\1st_person\frag_Grenade\left\"/>
+		<Animation name="$TracksDatabase" path="animations\1st_person\frag_grenade_left_fp.dba"/>
+
+		<Animation name="throw_grenade_left" path="throw_grenade_left.caf"/>
+		<Animation name="pick_up_item_left" path="pick_up_item_left.caf"/>	
+		<Animation name="idle_object" path="idle_object.caf"/>
+		<Animation name="idle_relaxed" path="idle_relaxed_frag.caf"/>
+		<Animation name="nw_arms_idle_relaxed" path="nw_arms_idle_relaxed.caf"/>		
+		<Animation name="idle_object_twohanded" path="idle_object_twohanded.caf"/>	
+		<Animation name="throw_object_twohanded" path="throw_object_twohanded.caf"/>	
+		<Animation name="pickup_object" path="pickup_object.caf"/>
+		
+	</AnimationList>
+</Params>

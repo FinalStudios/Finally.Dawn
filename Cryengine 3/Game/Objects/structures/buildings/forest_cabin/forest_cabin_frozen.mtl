@@ -1,0 +1,51 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="wood_wall" MtlFlags="524416" Shader="Illum" GenMask="2100042220" StringGenMask="%BLENDLAYER%DETAIL_BUMP_MAPPING%DETAIL_TEXTURE_IS_SET%GLOSS_DIFFUSEALPHA%TESSELLATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.238828,0.238828,0.238828" Specular="0.18431373,0.18431373,0.18431373" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/wood/wood_sheets_diff.tif" Filter="7"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood_a_detailbump_ddn.tif"/>
+    <Texture Map="Opacity" File="objects/structures/buildings/lighthouse/lighthouse_stucco_mask.tif"/>
+    <Texture Map="Custom" File="textures/terrain/detail/snow_terrain.dds"/>
+    <Texture Map="[1] Custom" File="textures/terrain/detail/snow_terrain_ddn.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="1" FresnelPower="4" DetailBumpTillingU="8" BlendLayer2Tiling="1" BlendMaskRotation="0" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="1" DetailBumpScale="1" BlendFactor="0.5" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="details_a" MtlFlags="524416" Shader="Illum" GenMask="2100040000" StringGenMask="%GLOSS_DIFFUSEALPHA%TESSELLATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.13320851,0.13320851,0.13320851" Specular="0.290196,0.290196,0.290196" Emissive="0,0,0" Shininess="6" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/buildings/forest_cabin/forest_cabin_details_a_diff.tif" Filter="7"/>
+    <Texture Map="Bumpmap" File="objects/structures/buildings/forest_cabin/forest_cabin_details_a_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="roof" MtlFlags="524416" Shader="Illum" GenMask="2100040028" StringGenMask="%ANISO_SPECULAR%BLENDLAYER%GLOSS_DIFFUSEALPHA%TESSELLATION%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.23489527,0.23489527,0.23489527" Specular="0.08241421,0.08241421,0.08241421" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/metal/metal_tile_rusty_a_diff.tif" Filter="7"/>
+    <Texture Map="Bumpmap" File="textures/metal/metal_tile_rusty_a_ddn.tif"/>
+    <Texture Map="Opacity" File="objects/structures/buildings/lighthouse/lighthouse_stucco_mask.tif"/>
+    <Texture Map="Custom" File="textures/terrain/detail/snow_terrain.dds"/>
+    <Texture Map="[1] Custom" File="textures/terrain/detail/snow_terrain_ddn.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="1" FresnelPower="4" BlendLayer2Tiling="4" AnisotropicShape="0.465" BlendMaskRotation="0" FresnelScale="1" FresnelBias="1" BlendFactor="2.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="_free" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="old_metal" MtlFlags="524416" Shader="Illum" GenMask="2100040020" StringGenMask="%BLENDLAYER%GLOSS_DIFFUSEALPHA%TESSELLATION%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.37867627,0.37867627,0.37867627" Specular="0.16364066,0.16364066,0.16364066" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/metal/metal_tile_old_green_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/metal/metal_tile_old_green_ddn.tif"/>
+    <Texture Map="Opacity" File="objects/structures/buildings/lighthouse/lighthouse_stucco_mask.tif"/>
+    <Texture Map="Custom" File="textures/terrain/detail/snow_terrain.dds"/>
+    <Texture Map="[1] Custom" File="textures/terrain/detail/snow_terrain_ddn.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="1" FresnelPower="4" BlendLayer2Tiling="4" BlendMaskRotation="0" FresnelScale="1" FresnelBias="1" BlendFactor="3" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_wood" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_metal" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

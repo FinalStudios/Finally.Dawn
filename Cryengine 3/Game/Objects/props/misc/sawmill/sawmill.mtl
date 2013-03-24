@@ -1,0 +1,87 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="details" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_default" MatTemplate="" Diffuse="0.31118053,0.31118053,0.31118053" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="40" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/buildings/forest_cabin/forest_cabin_details_a_diff.tif"/>
+    <Texture Map="Specular" File="objects/structures/buildings/forest_cabin/forest_cabin_details_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/buildings/forest_cabin/forest_cabin_details_a_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood1" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.11657578,0.11657578,0.11657578" Specular="0.58597302,0.58597302,0.58597302" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/muncipal/architecture/details_31_dif.tif"/>
+    <Texture Map="Specular" File="textures/muncipal/architecture/details_31_spec.tif"/>
+    <Texture Map="Bumpmap" File="textures/muncipal/architecture/details_31_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Wood_Floor" MtlFlags="524416" Shader="Illum" GenMask="2100080000" StringGenMask="%GLOSS_MAP%TESSELLATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.21951973,0.21951973,0.21951973" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/muncipal/architecture/floor_wood_04_dif.tif" Filter="7"/>
+    <Texture Map="Specular" File="textures/muncipal/architecture/floor_wood_04_spec.tif"/>
+    <Texture Map="Bumpmap" File="textures/muncipal/architecture/floor_wood_04_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Wood_wall" MtlFlags="524416" Shader="Illum" GenMask="2100080000" StringGenMask="%GLOSS_MAP%TESSELLATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.31118053,0.31118053,0.31118053" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/muncipal/architecture/wall_wood_03_dif.tif"/>
+    <Texture Map="Specular" File="textures/muncipal/architecture/wall_wood_03_spec.tif"/>
+    <Texture Map="Bumpmap" File="textures/muncipal/architecture/wall_wood_03_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Roof_metal" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.31118053,0.31118053,0.31118053" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="80" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/metal/metal_tile_rusty_a_diff.tif" Filter="7"/>
+    <Texture Map="Specular" File="textures/metal/metal_tile_rusty_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/metal/metal_tile_rusty_a_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Metal_Wall" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.21951973,0.21951973,0.21951973" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="120" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/muncipal/architecture/wall_metal_01_dif.tif"/>
+    <Texture Map="Specular" File="textures/muncipal/architecture/wall_metal_01_spec.tif"/>
+    <Texture Map="Bumpmap" File="textures/muncipal/architecture/wall_metal_01_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Metal" MtlFlags="524416" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="60" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/muncipal/architecture/roof_metal_black_dif.tif"/>
+    <Texture Map="Specular" File="textures/muncipal/architecture/roof_metal_black_dif.tif"/>
+    <Texture Map="Bumpmap" File="textures/muncipal/architecture/roof_metal_black_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Fence" MtlFlags="524418" Shader="Illum" GenMask="100080000" StringGenMask="%GLOSS_MAP%TESSELLATION" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.21951973,0.21951973,0.21951973" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="80" Opacity="1" AlphaTest="0.22">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/muncipal/architecture/metal_fence_01_diff.tif" Filter="7"/>
+    <Texture Map="Specular" File="textures/muncipal/architecture/metal_fence_01_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/muncipal/architecture/metal_fence_01_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Details" MtlFlags="524416" Shader="Illum" GenMask="100082280" StringGenMask="%DETAIL_BUMP_MAPPING%DETAIL_TEXTURE_IS_NORMALMAP%DETAIL_TEXTURE_IS_SET%GLOSS_MAP%TESSELLATION" SurfaceType="" MatTemplate="" Diffuse="0.11657578,0.11657578,0.11657578" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="60" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/muncipal/architecture/details_32_dif.tif" Filter="7"/>
+    <Texture Map="Specular" File="textures/muncipal/architecture/details_32_spec.tif"/>
+    <Texture Map="Bumpmap" File="textures/muncipal/architecture/details_32_ddn.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal_scratches_detailbump_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" DetailBumpTillingU="10" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="1" DetailBumpScale="1" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="4" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="saw_dust" MtlFlags="524448" Shader="Illum" GenMask="100000800" StringGenMask="%DECAL%TESSELLATION" SurfaceType="mat_default" MatTemplate="" Diffuse="0.31118053,0.31118053,0.31118053" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99000001">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/decals/dirt_mud_1.tif" Filter="7"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

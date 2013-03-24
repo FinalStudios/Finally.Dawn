@@ -1,0 +1,88 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="brick_wall" MtlFlags="524416" Shader="Illum" GenMask="2108000020" StringGenMask="%BLENDLAYER%PARALLAX_OCCLUSION_MAPPING%TESSELLATION%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.40982577,0.40982577,0.40982577" Specular="0.11392093,0.11392093,0.11392093" Emissive="0,0,0" Shininess="40" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/buildings/lighthouse/lighthouse_stucco.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/buildings/lighthouse/lighthouse_stucco_blend_ddn.tif"/>
+    <Texture Map="Opacity" File="objects/structures/buildings/lighthouse/lighthouse_stucco_mask.tif"/>
+    <Texture Map="Custom" File="textures/terrain/detail/snow_terrain.dds"/>
+    <Texture Map="[1] Custom" File="textures/terrain/detail/snow_terrain_ddn.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.80000001" FresnelPower="4" GlossFromDiffuseContrast="1" BlendLayer2Tiling="0.75" PomDisplacement="0.016799999" BlendMaskRotation="0" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0.80000001" GlossFromDiffuseBrightness="0.333" SelfShadowStrength="2" HeightBias="0" BlendFactor="12" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="details_a" MtlFlags="524416" Shader="Illum" GenMask="2100000020" StringGenMask="%BLENDLAYER%TESSELLATION%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.50588238,0.50588238,0.50588238" Specular="0.026548682,0.026548682,0.026548682" Emissive="0,0,0" Shininess="180" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/buildings/lighthouse/lighthouse_trims.tif" Filter="7"/>
+    <Texture Map="Bumpmap" File="objects/structures/buildings/lighthouse/lighthouse_trims_ddn.tif"/>
+    <Texture Map="Opacity" File="objects/structures/buildings/lighthouse/lighthouse_stucco_mask.tif"/>
+    <Texture Map="Custom" File="textures/terrain/detail/snow_terrain.dds"/>
+    <Texture Map="[1] Custom" File="textures/terrain/detail/snow_terrain_ddn.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="2" FresnelPower="4" GlossFromDiffuseContrast="1.46" BlendLayer2Tiling="0" BlendMaskRotation="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="1" GlossFromDiffuseBrightness="0" BlendFactor="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal" MtlFlags="524416" Shader="Illum" GenMask="2100080020" StringGenMask="%BLENDLAYER%GLOSS_MAP%TESSELLATION%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.40982577,0.40982577,0.40982577" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="40" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/buildings/lighthouse/ligthhouse_metal.tif"/>
+    <Texture Map="Specular" File="objects/structures/buildings/lighthouse/ligthhouse_metal.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/buildings/lighthouse/ligthhouse_metal_ddn.tif"/>
+    <Texture Map="Opacity" File="objects/structures/buildings/lighthouse/lighthouse_stucco_mask.tif"/>
+    <Texture Map="Custom" File="textures/terrain/detail/snow_terrain.dds"/>
+    <Texture Map="[1] Custom" File="textures/terrain/detail/snow_terrain_ddn.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" BlendFalloff="3" SpecMapChannelR="0" FresnelPower="4" BlendLayer2Tiling="1" GlossMapChannelB="0" BlendMaskRotation="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" BlendFactor="2.5" IndirectColor="0.25084025,0.25084025,0.25084025"/>
+  </Material>
+  <Material Name="glas" MtlFlags="526466" Shader="Glass" GenMask="100000090010" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP%GLOSS_MAP%TINT_MAP" SurfaceType="mat_glass" MatTemplate="" Diffuse="0.098689198,0.11926401,0.17343903" Specular="0.33922336,0.33922336,0.33922336" Emissive="0,0,0" Shininess="255" Opacity="1">
+   <Textures>
+    <Texture Map="Specular" File="objects/structures/buildings/lighthouse/lighthouse_windows.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/forest/cubemap_forest_a_cm.dds"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.29321617,0.29321617,0.18354899" FresnelPower="0" FresnelScale="14.2" FresnelBias="0.106" CloudinessReducesGloss="0.5" TintCloudiness="0.43900001" BackLightScale="0.28200001" BumpScale="2" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="door" MtlFlags="524418" Shader="Illum" GenMask="2100080020" StringGenMask="%BLENDLAYER%GLOSS_MAP%TESSELLATION%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="40" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/buildings/lighthouse/lighthouse_door.tif"/>
+    <Texture Map="Specular" File="objects/structures/buildings/lighthouse/lighthouse_door.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/buildings/lighthouse/lighthouse_door_ddn.tif"/>
+    <Texture Map="Opacity" File="objects/structures/buildings/lighthouse/lighthouse_stucco_mask.tif"/>
+    <Texture Map="Custom" File="textures/terrain/detail/snow_terrain.dds"/>
+    <Texture Map="[1] Custom" File="textures/terrain/detail/snow_terrain_ddn.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" BlendFalloff="4" SpecMapChannelR="0" FresnelPower="4" BlendLayer2Tiling="1" GlossMapChannelB="0" BlendMaskRotation="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" BlendFactor="3" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="alpha" MtlFlags="524420" Shader="Illum" GenMask="2100080000" StringGenMask="%GLOSS_MAP%TESSELLATION%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.40982577,0.40982577,0.40982577" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="120" Opacity="1" AlphaTest="0.38999999">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/buildings/lighthouse/lighthouse_alpha.tif"/>
+    <Texture Map="Specular" File="objects/structures/buildings/lighthouse/lighthouse_alpha.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/buildings/lighthouse/lighthouse_alpha_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glow_and_sign" MtlFlags="524416" Shader="Illum" GenMask="100080022" StringGenMask="%ALPHAGLOW%BLENDLAYER%GLOSS_MAP%TESSELLATION" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.40982577,0.40982577,0.40982577" Specular="0.15415226,0.15415226,0.15415226" Emissive="0,0,0" Shininess="80" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/buildings/lighthouse/lighthouse_light.tif"/>
+    <Texture Map="Specular" File="objects/structures/buildings/lighthouse/lighthouse_light.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/buildings/lighthouse/lighthouse_light_ddn.tif"/>
+    <Texture Map="Opacity" File="objects/structures/buildings/lighthouse/lighthouse_stucco_mask.tif"/>
+    <Texture Map="Custom" File="textures/terrain/detail/snow_terrain.dds"/>
+    <Texture Map="[1] Custom" File="textures/terrain/detail/snow_terrain_ddn.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" BlendFalloff="2" SpecMapChannelR="0" FresnelPower="4" BlendLayer2Tiling="1" GlossMapChannelB="0" BlendMaskRotation="0" SpecMapChannelG="0" FresnelScale="1" AmbientMultiplier="15" FresnelBias="1" BlendFactor="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="beam" MtlFlags="524448" Shader="Templbeamproc" GenMask="1" StringGenMask="" SurfaceType="mat_default" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="1" FurAmount="134" HeatAmountScaled="50">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white_noise.dds"/>
+   </Textures>
+   <PublicParams StartRadius="1" EndRadius="1" StartColor="1,1,1" EndColor="0,0,0" FinalMultiplier="1" SoftIntersectionFactor="3" BeamLength="20" viewDependencyFactor="0.37" OrigLength="13" OrigWidth="1"/>
+  </Material>
+  <Material Name="decals" MtlFlags="524416" Shader="Illum" GenMask="100000800" StringGenMask="%DECAL%TESSELLATION" SurfaceType="mat_soil" MatTemplate="" Diffuse="1,1,1" Specular="0.16364066,0.16364066,0.16364066" Emissive="0,0,0" Shininess="10" Opacity="0.34999999">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/buildings/lighthouse/lighthouse_decal.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

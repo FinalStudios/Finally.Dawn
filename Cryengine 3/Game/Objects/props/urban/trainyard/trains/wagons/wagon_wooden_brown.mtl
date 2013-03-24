@@ -1,0 +1,30 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="colour" MtlFlags="524416" Shader="Illum" GenMask="2000080001" StringGenMask="%ALLOW_POM%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.047775757,0.04614884,0.044552624" Specular="0.31118053,0.32503697,0.34886485" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/urban/trainyard/trains/wagons/wagon_wooden_diff.tif"/>
+    <Texture Map="Specular" File="objects/props/urban/trainyard/trains/wagons/wagon_wooden_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/urban/trainyard/trains/wagons/wagon_wooden_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wagon" MtlFlags="524416" Shader="Illum" GenMask="2000080001" StringGenMask="%ALLOW_POM%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.073827766,0.08241421,0.080219261" Specular="0.21204439,0.21204439,0.21204439" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/urban/trainyard/trains/wagons/wagon_wooden_diff.tif"/>
+    <Texture Map="Specular" File="objects/props/urban/trainyard/trains/wagons/wagon_wooden_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/urban/trainyard/trains/wagons/wagon_wooden_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="4" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="decal" MtlFlags="524448" Shader="Illum" GenMask="2000000801" StringGenMask="%ALLOW_POM%DECAL%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.58039218,0.58039218,0.58039218" Specular="0.30588236,0.30588236,0.30588236" Emissive="0,0,0" Shininess="10" Opacity="0.861">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/urban/trainyard/trains/wagons/train_wagon_dcal.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="physic_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>
