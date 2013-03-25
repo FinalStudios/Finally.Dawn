@@ -6,7 +6,7 @@
   <Texture Map="Specular" File="textures/final studios/test/grassrock/grassrock_spec.dds">
    <TexMod TileU="0.25" TileV="0.25"/>
   </Texture>
-  <Texture Map="Bumpmap" File="textures/final studios/test/grassrock/grassrock_ddn.tif">
+  <Texture Map="Bumpmap" File="textures/final studios/test/grassrock/grassrock_ddn.dds">
    <TexMod TileU="0.18000001" TileV="0.18000001"/>
   </Texture>
  </Textures>

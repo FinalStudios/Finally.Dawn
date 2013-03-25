@@ -1,14 +1,18 @@
-<Material MtlFlags="524292" Shader="Illum" GenMask="8080000" StringGenMask="%GLOSS_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_grass" MatTemplate="" Diffuse="1,1,1" Specular="0.16212985,0.16212985,0.16212985" Emissive="0,0,0" Opacity="1">
+<Material MtlFlags="524288" Shader="Illum" GenMask="8040000" StringGenMask="%GLOSS_DIFFUSEALPHA%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_soil" MatTemplate="" Diffuse="1,1,1" Specular="0.21951973,0.21951973,0.21951973" Emissive="0,0,0" Shininess="80" Opacity="1">
  <Textures>
-  <Texture Map="Diffuse" File="textures/final studios/test/grassrock/grassrock_diff.dds">
-   <TexMod TileU="0.25" TileV="0.25"/>
+  <Texture Map="Diffuse" File="textures/terrain/detail/ground_mossy.tif" Filter="6">
+   <TexMod TileU="0.15000001" TileV="0.15000001"/>
   </Texture>
-  <Texture Map="Specular" File="textures/final studios/test/grassrock/grassrock_spec.dds">
-   <TexMod TileU="0.25" TileV="0.25"/>
-  </Texture>
-  <Texture Map="Bumpmap" File="textures/final studios/test/grassrock/grassrock_ddn.tif">
-   <TexMod TileU="0.18000001" TileV="0.18000001"/>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/ground_mossy_ddn.tif">
+   <TexMod TileU="0.15000001" TileV="0.15000001"/>
   </Texture>
  </Textures>
- <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" FresnelPower="3.9330001" GlossMapChannelB="0" PomDisplacement="0.0060000001" SpecMapChannelG="0" FresnelScale="1.98" FresnelBias="0.472" SelfShadowStrength="4.6069999" HeightBias="1" IndirectColor="0.24680044,0.24680044,0.24680044"/>
+ <PublicParams FresnelPower="4" PomDisplacement="0.029999999" FresnelScale="1" FresnelBias="1" SelfShadowStrength="4" HeightBias="1" IndirectColor="0.25,0.25,0.25"/>
+ <MaterialLayers>
+  <Layer Name="Terrain.Layer" NoDraw="0">
+   <PublicParams FresnelPower="4" DetailTextureStrength="1" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Layer>
+  <Layer />
+  <Layer />
+ </MaterialLayers>
 </Material>

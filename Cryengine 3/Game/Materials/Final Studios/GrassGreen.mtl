@@ -1,8 +1,9 @@
-<Material MtlFlags="524292" Shader="Terrain.Layer" GenMask="200000000" StringGenMask="%TEMP_TERRAIN" SurfaceType="mat_grass" MatTemplate="" Diffuse="1,1,1" Specular="0.044635419,0.044635419,0.044635419" Emissive="0,0,0" Opacity="1">
+<Material MtlFlags="524292" Shader="Terrain.Layer" GenMask="200080000" StringGenMask="%GLOSS_MAP%TEMP_TERRAIN" SurfaceType="mat_grass" MatTemplate="" Diffuse="1,1,1" Specular="0.0060405931,0.0060405931,0.0060405931" Emissive="0,0,0" Opacity="1">
  <Textures>
-  <Texture Map="Diffuse" File="textures/final studios/test/grassgreen/grassgreen_diff.tif">
+  <Texture Map="Diffuse" File="textures/final studios/test/grassgreen/grassgreen_diff.dds">
    <TexMod TileU="0.40000001" TileV="0.40000001"/>
   </Texture>
+  <Texture Map="Specular" File="textures/final studios/test/grassgreen/grassgreen_spec.dds"/>
  </Textures>
  <PublicParams FresnelPower="4" DetailTextureStrength="1" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
 </Material>

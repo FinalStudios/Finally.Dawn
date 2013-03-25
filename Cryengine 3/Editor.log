@@ -1,5 +1,5 @@
-BackupNameAttachment=" Build(6289) 24 Mar 13 (20 48 20)"  -- used by backup system
-Log Started at 03/24/13 20:48:20
+BackupNameAttachment=" Build(6289) 25 Mar 13 (13 16 59)"  -- used by backup system
+Log Started at 03/25/13 13:16:59
 Running 32 bit version
 Executable: C:\Users\Sepp\Game Development\FINALLY DAWN\Finally.Dawn\Cryengine 3\Bin32\Editor.exe
 FileVersion: 3.4.4.6289
@@ -99,9 +99,9 @@ System language: German
 Windows Directory: "C:\Windows"
 Prerequisites...
 * Installation of KB940105 hotfix required: no! (either not needed or already installed)
-Local time is 20:48:21 03/24/13, system running for 240 minutes
-8188MB physical memory installed, 4766MB available, 4095MB virtual memory installed, 41 percent of memory in use
-PageFile usage: 44MB, Working Set: 46MB, Peak PageFile usage: 50MB,
+Local time is 13:17:00 03/25/13, system running for 7 minutes
+8188MB physical memory installed, 5707MB available, 4095MB virtual memory installed, 30 percent of memory in use
+PageFile usage: 45MB, Working Set: 46MB, Peak PageFile usage: 50MB,
 Current display mode is 1280x1024x32, (Unknown graphics card)
 Japanese keyboard and 5+ button mouse installed
 --------------------------------------------------------------------------------
@@ -119,7 +119,7 @@ Initializing CryFont...
 Initializing CryFont done, MemUsage=60Kb
 Physics initialization
 Initializing CryPhysics...
-Initializing CryPhysics done, MemUsage=704Kb
+Initializing CryPhysics done, MemUsage=700Kb
 Sound initialization
     Initializing CrySoundSystem...
     <Sound> Initializing AudioDevice now!
@@ -146,12 +146,12 @@ Sound initialization
     <Sound> Total number of all hardware channels available: 0
     <Sound> Initializing SoundSystem now!
     <Sound> AD: Setting of FMOD debug level failed! The FMOD libraries do not support logging!
-    Initializing CrySoundSystem done, MemUsage=4784Kb
+    Initializing CrySoundSystem done, MemUsage=4800Kb
     <Sound> Sound-FmodEx-AudioDevice Thread created: FMOD nonblocking thread (0) (1228) 
 Renderer initialization
 Initializing CryRenderD3D11...
 CRenderer sizeof(Vec2f16)=4 sizeof(Vec3f16)=8
-Initializing CryRenderD3D11 done, MemUsage=4020Kb
+Initializing CryRenderD3D11 done, MemUsage=4016Kb
 Initializing Direct3D and creating game window:
     D3DX_SDK_VERSION = 43
     Direct3D9 driver is creating...
@@ -254,7 +254,7 @@ Initializing Direct3D and creating game window:
 Initializing CryScaleform...
 Using Scaleform GFx 3.3.94
   Using dynamic pool
-Initializing CryScaleform done, MemUsage=640Kb
+Initializing CryScaleform done, MemUsage=656Kb
 Network initialization
 Initializing CryNetwork...
 [net] using iocp socket io management
@@ -262,7 +262,7 @@ network hostname: Sepp-PC
   ip:192.168.2.109
   ip:25.133.219.112
 [Network Version]: DEBUG DEVELOPMENT BUILD
-Initializing CryNetwork done, MemUsage=1200Kb
+Initializing CryNetwork done, MemUsage=1176Kb
 MovieSystem initialization
 Initializing CryMovie...
 Initializing CryMovie done, MemUsage=156Kb
@@ -274,10 +274,10 @@ Input initialization
     Initializing DirectInput
     Initializing Keyboard
     Initializing mouse
-    Initializing CryInput done, MemUsage=480Kb
+    Initializing CryInput done, MemUsage=484Kb
 AI initialization
     Initializing CryAISystem...
-    Initializing CryAISystem done, MemUsage=524Kb
+    Initializing CryAISystem done, MemUsage=532Kb
 Initializing Animation System
     Initializing CryAnimation...
     Initializing CryAnimation done, MemUsage=368Kb
@@ -297,16 +297,16 @@ Initializing 3D Engine
      Compile Terrain@Common_CausticsPassPS(GL200000000)(RT0)(PS) (58 instructions, 7/7 constants) ... 
      Compile Terrain@Common_SG_PS(GL200000000)(RT0)(PS) (1 instructions, 0/0 constants) ... 
     Sky light: Optical lookup tables loaded off disc.
-    Initializing Cry3DEngine done, MemUsage=16136Kb
+    Initializing Cry3DEngine done, MemUsage=18004Kb
 Script System Initialization
     Initializing CryScriptSystem...
-    Initializing CryScriptSystem done, MemUsage=508Kb
+    Initializing CryScriptSystem done, MemUsage=512Kb
 Entity system initialization
     Initializing CryEntitySystem...
     Initializing CryEntitySystem done, MemUsage=644Kb
 Initializing AI System
     AI: [AISYSTEM] Initialization started.
-    AI: Loaded 133 AI Behaviors in 0.14s...
+    AI: Loaded 133 AI Behaviors in 0.15s...
     AI: Loaded 0 AI Group Behaviors in 0.00s...
     <Lua> [AI] 6 Formations loaded...
     <Lua> [AI] 6 Formations loaded...
@@ -315,7 +315,7 @@ Initializing AI System
 Waiting for login...
 Current Language: German 
 Windows Vista 6.1 (C:\Windows)
-Local time is 20:48:26 03/24/13, system running for 240 minutes
+Local time is 13:17:19 03/25/13, system running for 7 minutes
 4096MB phys. memory installed, 4095MB paging available
 Current display mode is 1280x1024x32, (Unknown graphics card)
 Japanese keyboard and 5+ button mouse installed
@@ -413,7 +413,7 @@ Flushing pended textures...
 Finished flushing pended textures...
 EDITOR: Set game mode: off
 Ending game context...
-    Destroying CActionGame instance 1F28E0D8 (level="")
+    Destroying CActionGame instance 23C6CBA0 (level="")
         CCryLobbySessionHandler::OnGameShutdown(), m_userQuit=false, migrationState=0
 EDITOR: Set game mode: on
 Loading Config file singleplayer.cfg (game\config\singleplayer.cfg)
@@ -437,9 +437,9 @@ CRGBLayer::AllocateTiles 4x4 tiles 512 => 2048x2048 texture
 Loading map 'game\levels\game' into engine...
 ===== Loading Particle Effects =====
 Preloading Particle Effects...
-Particle Effects Loaded in 0.63 seconds
+Particle Effects Loaded in 3.87 seconds
 <Lua> registering explosion and shapes with physics system...
----- End: 3D Engine level load (0 seconds)
+---- End: 3D Engine level load (4 seconds)
 ---- Start: Loading Surface Types
 ---- End: Loading Surface Types (0 seconds)
 ---- Start: Loading Terrain Layers Info
@@ -468,7 +468,7 @@ Constructing 5461 terrain nodes (1.7 MB)
 ---- End: Load Terrain (0 seconds)
 ---- Start: Load Vegetation
 Loading Vegetation Map...
----- End: Load Vegetation (2 seconds)
+---- End: Load Vegetation (15 seconds)
 ---- Start: Terrain Postprocess
 ---- End: Terrain Postprocess (0 seconds)
 ---- Start: Process RGB Terrain Layers
@@ -487,7 +487,7 @@ Loading terrain layers for segment 0 ...
   Layer 3 - has material materials/terrain/snow1
   Layer 4 - has material materials/terrain/leaves_1
   Layer 5 - has material materials/terrain/pebbles_1
----- End: Load Terrain (7 seconds)
+---- End: Load Terrain (25 seconds)
 ---- Start: Reposition Vegetation
 ---- End: Reposition Vegetation (1 seconds)
 ---- Start: Load MaterialManager
@@ -507,7 +507,7 @@ Loading terrain layers for segment 0 ...
   Layer 3 - has material materials/terrain/snow1
   Layer 4 - has material materials/terrain/leaves_1
   Layer 5 - has material materials/terrain/pebbles_1
----- End: Updating Surface Types (1 seconds)
+---- End: Updating Surface Types (0 seconds)
 Loading Fog settings...
 ---- Start: Load Entity Archetypes Database
 ---- End: Load Entity Archetypes Database (0 seconds)
@@ -529,26 +529,26 @@ Loading AI Triangulation game\levels\game, Mission0
 --- AI: Creating graph nodes
 --- AI: Reading links
 --- AI: Reconnecting links
---- AI: Finished Reconnecting links in  0.072 sec
+--- AI: Finished Reconnecting links in  0.071 sec
 --- AI: Reading 3D volumes.
 --- AI: Reading AI volumes [game\levels\game/v3dMission0.bai]
---- AI: AI volumes loaded  successfully in  0.004 sec. [game\levels\game/v3dMission0.bai]
+--- AI: AI volumes loaded  successfully in  0.003 sec. [game\levels\game/v3dMission0.bai]
 --- AI: AI num volumes = 0, num portals = 0
 --- AI: Reading Flight navigation.
 --- AI: Loading 0 links descriptors.
 --- AI: Connecting 0 links.
---- AI: AI flight nav loaded successfully in  0.008 (spans =  0.000, links =  0.007) sec. [game\levels\game/fnavMission0.bai]
+--- AI: AI flight nav loaded successfully in  0.006 (spans =  0.000, links =  0.006) sec. [game\levels\game/fnavMission0.bai]
 --- AI: Reading Road navigation
 --- AI: Reading 3D surface navigation
 --- AI: CWaypoint3DSurfaceNavRegion::ReadFromFile game\levels\game/waypt3DsfcMission0.bai
 --- AI: Building forbidden QuadTrees
---- AI: Navigation Data Loaded in  0.32 sec
-Finished Loading AI Triangulation in  0.328 secs
----- End: Activating Mission Mission0 (1 seconds)
+--- AI: Navigation Data Loaded in  0.46 sec
+Finished Loading AI Triangulation in  0.468 secs
+---- End: Activating Mission Mission0 (3 seconds)
 ---- Start: Load Sequence Groups
 ---- End: Load Sequence Groups (0 seconds)
 ---- Start: Load Level Shader Cache
-1816 shader combination loaded for level game\levels\game
+796 shader combination loaded for level game\levels\game
 ---- End: Load Level Shader Cache (0 seconds)
 ---- Start: Post Load
 Create AG humanmalefullbody.xml
@@ -568,13 +568,13 @@ Loading animation graph with different but supported version! Filename=Animation
   9 animation-assets loaded (total assets: 244)
 <Lua> warning: No spawn points; using default spawn location!
 -- Presort shaders by states...
---- 377 Resources, 187 Resource groups.
+--- 377 Resources, 186 Resource groups.
 -- Precaching textures...
 [Warning] Texture does not exist [File=engine/engineassets/texturemsg/replaceme.dds]	<Scope> [Texture][ParticleLibrary]breakable_objects > [Particle Effect]breakable_objects.tree_break.small.geo3 > [CGF]EngineAssets/Objects/Default.cgf > [Material]EngineAssets/Objects/helper > [Texture]engine/engineassets/texturemsg/replaceme.dds
 [Warning] Texture does not exist [File=engine/engineassets/texturemsg/replaceme.dds]	<Scope> [Texture][ParticleLibrary]breakable_objects > [Particle Effect]breakable_objects.tree_break.small.geo3 > [CGF]EngineAssets/Objects/Default.cgf > [Material]EngineAssets/Objects/helper > [Texture]engine/engineassets/texturemsg/replaceme.dds
-Precaching textures done in 0.31 seconds
----- End: Post Load (2 seconds)
-[LevelLoadTime] Level game\levels\game loaded in 13 seconds
+Precaching textures done in 45.21 seconds
+---- End: Post Load (55 seconds)
+[LevelLoadTime] Level game\levels\game loaded in 85 seconds
 ========================= Errors =========================
   0) [ 2]	[Renderer]	Texture does not exist	engine/engineassets/texturemsg/replaceme.dds
   1) [ 1]	[Engine]	Particle effect not found: 'Waterfall.CXP_Waterfall.Splash_narrow'	 	 Object="ParticleEffect_13"
@@ -585,11 +585,11 @@ Precaching textures done in 0.31 seconds
   6) [ 1]	[System]	[Warning] Particle effect not found: 'Waterfall.CXP_Waterfall.Splash_narrow'	<Scope> [Entity]ParticleEffect_13	 	 Object="ParticleEffect_13"
   7) [ 2]	[System]	[Warning] Texture does not exist [File=engine/engineassets/texturemsg/replaceme.dds]	<Scope> [Texture][ParticleLibrary]breakable_objects > [Particle Effect]breakable_objects.tree_break.small.geo3 > [CGF]EngineAssets/Objects/Default.cgf > [Material]EngineAssets/Objects/helper > [Texture]engine/engineassets/texturemsg/replaceme.dds	 
 ========================= End Errors =========================
-File access time during level loading: 0.90 seconds
+File access time during level loading: 66.36 seconds
 --- Warming-up textures...
 -----------------------------------------------------------
 Successfully opened document C:\Users\Sepp\Game Development\FINALLY DAWN\Finally.Dawn\Cryengine 3\game\Levels\GAME\GAME.cry
-Level loading time: 19.95 seconds
+Level loading time: 95.33 seconds
 -----------------------------------------------------------
 Adding for file change notifications: 'C:\Users\Sepp\Game Development\FINALLY DAWN\Finally.Dawn\Cryengine 3\game\'
 Adding for file change notifications: 'C:\Users\Sepp\Game Development\FINALLY DAWN\Finally.Dawn\Cryengine 3\engine\'
@@ -612,57 +612,286 @@ Opening terrain\cover.ctc ...
   RGB multiplier: 1, Texture indices: 341
 Loading RGB Layer Tile: TilePos=(1, 0) MemUsage=0.0MB
 Loading RGB Layer Tile: TilePos=(2, 0) MemUsage=1.0MB
+ Compile Illum@Common_ZPassPS(GL2200)(RTc0004)(PS) (34 instructions, 6/7 constants) ... 
  Compile Illum@Common_ZPassVS(GL20)(RTc0004)(MD100)(MDV100)(VS) (46 instructions, 6/14 constants) ... 
  Compile Illum@Common_ZPassPS(GL8000000)(RTc0004)(PS) (110 instructions, 7/8 constants) ... 
- Compile Illum@Common_ZPassPS(GL2200)(RTc0004)(PS) (34 instructions, 6/7 constants) ... 
+ Compile Illum@Common_ZPassVS(GL8000000)(RTc0004)(MDV100)(VS) (50 instructions, 5/10 constants) ... 
  Compile Illum@Common_ZPassPS(GL82280)(RTc0004)(PS) (34 instructions, 6/7 constants) ... 
  Compile Illum@Common_ZPassPS(GL82200)(RTc0004)(PS) (34 instructions, 6/7 constants) ... 
  Compile Vegetation@Common_ZPassPS(GL400201000)(RTc0104)(PS) (16 instructions, 3/4 constants) ... 
  Compile Vegetation@Common_ZPassVS(GL400200000)(RTc0104)(MDV1700)(VS) (84 instructions, 9/14 constants) ... 
- Compile Vegetation@Common_ZPassVS(GL400200000)(RT2c0104)(MDV700)(VS) (75 instructions, 6/9 constants) ... 
  Compile Vegetation@Common_ZPassVS(GL400200000)(RTc0104)(MDV700)(VS) (76 instructions, 8/13 constants) ... 
- Compile Vegetation@Common_ZPassVS(GL400200000)(RT2c0104)(MDV1700)(VS) (82 instructions, 6/9 constants) ... 
- Compile Vegetation@Common_ZPassPS(GL400003200)(RTc0104)(PS) (35 instructions, 7/8 constants) ... 
- Compile Vegetation@Common_ZPassVS(GL400000000)(RTc0104)(MDV100)(VS) (43 instructions, 6/11 constants) ... 
- Compile Vegetation@Common_ZPassVS(GL400000000)(RT2c0104)(MDV100)(VS) (47 instructions, 4/7 constants) ... 
+ Compile Illum@Common_ZPassPS(GL80000)(RTd0000)(PS) (28 instructions, 3/4 constants) ... 
+ Compile Illum@Common_ZPassVS(RTd0000)(MDV2000)(VS) (41 instructions, 5/10 constants) ... 
 [CUIMultiPlayer] PlayerJoined 30583 Sepp
  Compile Illum@Common_ZPassVS(GL8000000)(RTc0004)(MD300)(MDV100)(VS) (53 instructions, 6/14 constants) ... 
- Compile Illum@Common_EffectLayerPassVS(RT0)(MD100)(MDV100)(VS) (63 instructions, 8/16 constants) ... 
- Compile Vegetation@Common_SG_VS(GL400000000)(RT10000000000c0100)(MDV600)(VS) (23 instructions, 3/8 constants) ... 
- Compile Vegetation@Common_SG_VS(GL400000000)(RT10000000002c0100)(MDV600)(VS) (23 instructions, 2/5 constants) ... 
- Compile Vegetation@Common_SG_VS(GL400000000)(RT10000000002c0000)(VS) (23 instructions, 2/5 constants) ... 
- Compile Vegetation@Common_SG_VS(GL400000000)(RT10000000002c0100)(MDV200)(VS) (23 instructions, 2/5 constants) ... 
- Compile Illum@Common_ZPassVS(RTd0000)(MDV2000)(VS) (41 instructions, 5/10 constants) ... 
- Compile Vegetation@Common_SG_VS(GL400000000)(RT10000000002c0100)(VS) (23 instructions, 2/5 constants) ... 
- Compile Illum@Common_ZPassVS(GL8000000)(RTc0004)(MDV100)(VS) (50 instructions, 5/10 constants) ... 
- Compile Illum@Common_ZPassVS(RTc0004)(MD100)(MDV100)(VS) (45 instructions, 6/14 constants) ... 
- Compile Illum@Common_ZPassPS(GL80000)(RTd0000)(PS) (28 instructions, 3/4 constants) ... 
- Compile Terrain@Common_ZPassPS(GL200080000)(RTd0000)(PS) (23 instructions, 2/3 constants) ... 
- Compile Terrain@Common_ZPassVS(GL200000000)(RTd0000)(MD200)(VS) (69 instructions, 7/18 constants) ... 
- Compile Illum@Common_ZPassPS(GL80200)(RTc0004)(PS) (28 instructions, 3/4 constants) ... 
+ Compile Vegetation@Common_SG_VS(GL400000000)(RT10000000000c0100)(MDV1600)(VS) (29 instructions, 4/9 constants) ... 
+ Compile Vegetation@Common_ZPassVS(GL400200000)(RT2c0104)(MDV1700)(VS) (82 instructions, 6/9 constants) ... 
+ Compile Vegetation@Common_ZPassVS(GL400000000)(RTc0104)(MDV100)(VS) (43 instructions, 6/11 constants) ... 
  Compile Terrain@Common_ZPassVS(GL200000000)(RTd0000)(VS) (66 instructions, 6/14 constants) ... 
  Compile Terrain@Common_ZPassPS(GL200002280)(RTd0000)(PS) (29 instructions, 5/6 constants) ... 
  Compile Terrain@Common_ZPassVS(GL200000000)(RTd0000)(MD300)(VS) (69 instructions, 7/18 constants) ... 
+ Compile Vegetation@Common_SG_VS(GL400000000)(RT10000000002c0100)(MDV200)(VS) (23 instructions, 2/5 constants) ... 
+ Compile Illum@Common_ZPassVS(RTc0004)(MD100)(MDV100)(VS) (45 instructions, 6/14 constants) ... 
+ Compile Vegetation@Common_ZPassPS(GL400003200)(RTc0104)(PS) (35 instructions, 7/8 constants) ... 
+ Compile Vegetation@Common_SG_VS(GL400000000)(RT10000000000c0100)(MDV600)(VS) (23 instructions, 3/8 constants) ... 
+ Compile Vegetation@Common_ZPassVS(GL400000000)(RT2c0104)(MDV100)(VS) (47 instructions, 4/7 constants) ... 
  Compile Illum@Common_ZPassPS(RTc0104)(PS) (32 instructions, 4/5 constants) ... 
+ Compile Illum@Common_ZPassPS(GL80200)(RTc0004)(PS) (28 instructions, 3/4 constants) ... 
  Compile Illum@Common_SG_VS(RT10000000002c0000)(VS) (23 instructions, 2/5 constants) ... 
- Compile Vegetation@Common_SG_VS(GL400000000)(RT10000000000c0100)(MDV1600)(VS) (29 instructions, 4/9 constants) ... 
  Compile Vegetation@Common_SG_VS(GL400000000)(RT10000000002c0100)(MDV1600)(VS) (29 instructions, 2/5 constants) ... 
-Saving to C:\Users\Sepp\Game Development\FINALLY DAWN\Finally.Dawn\Cryengine 3\game\Levels\GAME\GAME.cry...
-Storing View settings...
-Saving Vegetation Map...
-Storing surface types...
-Storing layer settings...
-Saving Vegetation Map...
-Storing Fog settings...
-Storing missions...Done
-796 shader combination loaded for level game\levels\game
-Saving pak file c:\users\sepp\game development\finally dawn\finally.dawn\cryengine 3\game\levels\game\game.tmp
-Level successfully saved
- Compile Vegetation@Common_SG_VS(GL400000000)(RT10000000002c0000)(MDV200)(VS) (23 instructions, 2/5 constants) ... 
- Compile Illum@Common_EffectLayerPassVS(RT0)(MDV100)(VS) (59 instructions, 7/12 constants) ... 
- Compile Illum@Common_ZPassPS(GL80020)(RTc0004)(PS) (44 instructions, 6/7 constants) ... 
+ Compile Vegetation@Common_ZPassVS(GL400200000)(RT2c0104)(MDV700)(VS) (75 instructions, 6/9 constants) ... 
+[Warning] MakeSprite() was called 294 times in this frame and 193 last frame (quick player view change/fast moving sun/too many sprites/low dynamic texture memory)
+ Compile Vegetation@Common_SG_VS(GL400000000)(RT10000000002c0100)(VS) (23 instructions, 2/5 constants) ... 
+ Compile Vegetation@Common_SG_VS(GL400000000)(RT10000000002c0000)(VS) (23 instructions, 2/5 constants) ... 
+ Compile Vegetation@Common_SG_VS(GL400000000)(RT10000000002c0100)(MDV600)(VS) (23 instructions, 2/5 constants) ... 
+ Compile Terrain@Common_ZPassPS(GL200080000)(RTd0000)(PS) (23 instructions, 2/3 constants) ... 
+ Compile Terrain@Common_ZPassVS(GL200000000)(RTd0000)(MD200)(VS) (69 instructions, 7/18 constants) ... 
+ Compile Illum@Common_ZPassPS(GL80000)(RTc0004)(PS) (28 instructions, 3/4 constants) ... 
  Compile Illum@Common_ZPassVS(GL20)(RTc0004)(MDV100)(VS) (43 instructions, 5/10 constants) ... 
-<Sound> Sound-FmodEx-AudioDevice Thread created: FMOD nonblocking thread (1) (2336) 
+ Compile Illum@Common_ZPassPS(GL80020)(RTc0004)(PS) (44 instructions, 6/7 constants) ... 
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+Storing layer settings...
+Storing layer settings...
+Loading layer texture (game/Textures/Defaults/defaultnouvs.dds)...
+GetOrRequestLayerId() 'NewLayer' m_dwLayerId=6
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+  Layer 6 - has material Materials/material_terrain_default
+Storing layer settings...
+Storing layer settings...
+Loading layer texture (textures/defaults/grey.dds)...
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+  Layer 6 - has material Materials/material_terrain_default
+ Compile Terrain@Common_ZPassPS(GL208080000)(RT0)(PS) (23 instructions, 2/3 constants) ... 
+Storing layer settings...
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+  Layer 6 - has material Materials/Final Studios/GrassDirt
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+  Layer 6 - has material Materials/Final Studios/GrassDirt
+ Compile Terrain@Common_ZPassPS(GL208080000)(RTd0000)(PS) (96 instructions, 5/6 constants) ... 
+ Compile Terrain@TerrainLayerPS(GL208080000)(RTc0402)(LT1)(PS) (207 instructions, 23/23 constants) ... 
+ Compile Terrain@TerrainLayerVS(GL200000000)(RTc0000)(LT1)(MD700)(VS) (92 instructions, 9/23 constants) ... 
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+  Layer 6 - has material Materials/Final Studios/GrassDirt
+Storing layer settings...
+Storing layer settings...
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+  Layer 6 - has material Materials/Final Studios/GrassNormal
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+  Layer 6 - has material Materials/Final Studios/GrassNormal
+ Compile Terrain@Common_ZPassPS(GL200000000)(RTd0000)(PS) (23 instructions, 2/3 constants) ... 
+Undo (Undo:9,Redo:1)
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+  Layer 6 - has material Materials/Final Studios/GrassNormal
+Storing layer settings...
+Storing layer settings...
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+  Layer 6 - has material Materials/Final Studios/GrassGreen
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+  Layer 6 - has material Materials/Final Studios/GrassGreen
+Storing layer settings...
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+  Layer 6 - has material Materials/Final Studios/GrassNormal
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+  Layer 6 - has material Materials/Final Studios/GrassNormal
+Storing layer settings...
+Storing layer settings...
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+  Layer 6 - has material Materials/Final Studios/GrassRock
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+  Layer 6 - has material Materials/Final Studios/GrassRock
+[Warning] Error: Shader "Terrain.Layer.cfx" doesn't exist (used in material "$unknown$")
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+Storing layer settings...
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+  Layer 6 - has material Materials/Final Studios/WoodChips
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+  Layer 6 - has material Materials/Final Studios/WoodChips
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "Materials/Final Studios/WoodChips"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+Storing layer settings...
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+  Layer 6 - has material Materials/Final Studios/GrassDead
+Loading terrain layers for segment 0 ...
+  Layer 0 - has material materials/terrain/grass_1
+  Layer 1 - has material materials/terrain/mud_1
+  Layer 2 - has material materials/terrain/rock_4
+  Layer 3 - has material materials/terrain/snow1
+  Layer 4 - has material materials/terrain/leaves_1
+  Layer 5 - has material materials/terrain/pebbles_1
+  Layer 6 - has material Materials/Final Studios/GrassDead
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+ Compile Terrain@TerrainLayerPS(GL200000000)(RTc0003)(LT101)(PS) (95 instructions, 15/15 constants) ... 
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+ Compile Illum@Common_ZPassPS(GL8002280)(RT0)(PS) (34 instructions, 6/7 constants) ... 
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+ Compile Illum@IlluminationPS(GL8042280)(RTc0003)(LT101)(PS) (215 instructions, 17/17 constants) ... 
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+ Compile Illum@IlluminationPS(GL80000)(RTc0003)(LT101)(PS) (97 instructions, 13/13 constants) ... 
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+ Compile Illum@IlluminationPS(GL40000)(RTc0003)(LT101)(PS) (90 instructions, 11/11 constants) ... 
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
+ Compile Illum@IlluminationPS(GL8040000)(RTc0003)(LT101)(PS) (203 instructions, 14/14 constants) ... 
+[Warning] Failed to load material layer shader "Terrain.Layer" in material "_NewPreview_"
 [Error] Runaway thread
 [Error] Runaway thread
 [Error] Runaway thread
@@ -672,7 +901,7 @@ Level successfully saved
 [Lobby] Terminate service 0 error 4
 [Lobby] Terminate service 1 error 4
 Ending game context...
-    Destroying CActionGame instance 1F28E0D8 (level="")
+    Destroying CActionGame instance 23C6CBA0 (level="")
         CCryLobbySessionHandler::OnGameShutdown(), m_userQuit=false, migrationState=0
 Ammo Pool Statistics:
 [FEATURETESTER] Unloading all feature test data
